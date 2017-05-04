@@ -13,14 +13,17 @@ for page in range(1,end_page+1):
     data = r.json()
     for index in range(len(data["projects"])):
         #print "%s,%f,%s,%f" % (data["projects"][index]["name"], data["projects"][index]["goal"], data["projects"][index]["currency"], data["projects"][index]["pledged"])
-        csv_output.write("\"%s\",%s,%.0f,%s,%.2f,%d,%s,%s,%s\n" % (data["projects"][index]["name"].encode('ascii', 'ignore'), 
+        csv_output.write("\"%s\",%s,%.0f,%s,%.2f,%d,%s,%s,%s\n" % (data["projects"][index]["name"].encode('ascii', 'ignore'),
             data["projects"][index]["category"]["slug"].split("/")[0],
-            data["projects"][index]["goal"], 
-            data["projects"][index]["currency"], 
+            data["projects"][index]["goal"],
+            data["projects"][index]["currency"],
             data["projects"][index]["pledged"],
             data["projects"][index]["backers_count"],
             str(datetime.datetime.fromtimestamp(data["projects"][index]["created_at"])),
             str(datetime.datetime.fromtimestamp(data["projects"][index]["launched_at"])),
             str(datetime.datetime.fromtimestamp(data["projects"][index]["deadline"]))))
+        st = data["projects"][index]["id"]
+        #print("",data["projects"][index]["id"],"/"+data["projects"][index]["slug"] )
+        print("https://www.kickstarter.com/projects/"+str(data["projects"][index]["id"])[:-1]+"/"+data["projects"][index]["slug"] )
 
 csv_output.close()
