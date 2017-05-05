@@ -30,9 +30,10 @@ for page in range(1,end_page+1):
         #urls.append("https://www.kickstarter.com/projects/"+str(data["projects"][index]["id"])[:-1]+"/"+data["projects"][index]["slug"])
         #urls.append('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
         url = ('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
-        urls.append(url)
-        wee[data["projects"][index]["slug"]] = {"url": url}
-
+#        urls.append(url)
+        wee[data["projects"][index]["slug"]] = {"id": data["projects"][index]["id"], "name": data["projects"][index]["slug"], "url": url}
+#        wee[data["projects"][index]["slug"]] = {"id": data["projects"][index]["id"]}
+#        wee[data["projects"][index]["slug"]] = {"url": url}
 #        wee['url'] = urls
         
 	#urls.update("urls": url)
