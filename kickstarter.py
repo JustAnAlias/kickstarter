@@ -5,8 +5,9 @@ import datetime
 #data outputs to a CSV file in the current directory
 csv_output = open("sample.csv", "w")
 
-end_page = 5;
+end_page = 2;
 urls= []
+wee={}
 
 #scan through pages 1 to end_page for data, 20 results per page
 for page in range(1,end_page+1):
@@ -27,9 +28,20 @@ for page in range(1,end_page+1):
 	#urls.update("https://www.kickstarter.com/projects/"+str(data["projects"][index]["id"])[:-1]+"/"+data["projects"][index]["slug"])
         #print("",data["projects"][index]["id"],"/"+data["projects"][index]["slug"] )
         #urls.append("https://www.kickstarter.com/projects/"+str(data["projects"][index]["id"])[:-1]+"/"+data["projects"][index]["slug"])
-        urls.append('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
+        #urls.append('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
+        url = ('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
+        urls.append(url)
+        wee[data["projects"][index]["slug"]] = url
+
+#        wee['url'] = urls
         
 	#urls.update("urls": url)
 
-print(urls)
+#print(urls)
+#print(wee)
+
 csv_output.close()
+
+
+with open('data.json', 'w') as fp:
+	json.dump(wee, fp, indent=4)
