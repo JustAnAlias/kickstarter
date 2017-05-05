@@ -22,9 +22,17 @@ Vagrant.configure("2") do |config|
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
+  # NOTE: This will enable public access to the opened port
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
   config.vm.network "forwarded_port", guest: 8080, host: 8080
   config.vm.network "forwarded_port", guest: 8888, host: 8888
 
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine and only allow access
+  # via 127.0.0.1 to disable public access
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+
+  config.vm.synced_folder "./", "/code"
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   # config.vm.network "private_network", ip: "192.168.33.10"
@@ -38,45 +46,22 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "./", "/python_course"
+  # config.vm.synced_folder "../data", "/vagrant_data"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
-  config.vm.provider "virtualbox" do |vb|
-    # Display the VirtualBox GUI when booting the machine
-    vb.gui = true
-
-    # Customize the amount of memory on the VM:
-    vb.memory = "2048"
-    vb.cpus = "2"
-    vb.name = "coursevm"
-    # vb.customize ["modifyvm", :id, "--usb", "on"]
-    # vb.customize ["modifyvm", :id, "--usbehci", "on"]
-#     vb.customize ["usbfilter", "add", "0",
-#         "--target", :id,
-#         "--name", "Any mass storage",
-#         "--manufacturer", "Generic",
-#         "--product", "Mass Storage Device"]
-  end
-
-  # config.vm.network "forwarded_port", guest: 80, host: 8000
-  # config.vm.network "public_network"
+   config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+     vb.gui = true
   #
-  # View the documentation for the provider you are using for more
-  # information on available options.
-
-  # Define a Vagrant Push strategy for pushing to Atlas. Other push strategies
-  # such as FTP and Heroku are also available. See the documentation at
-  # https://docs.vagrantup.com/v2/push/atlas.html for more information.
-  # config.push.define "atlas" do |push|
-  #   push.app = "YOUR_ATLAS_USERNAME/YOUR_APPLICATION_NAME"
-  # end
-
-  # Enable provisioning with a shell script. Additional provisioners such as
-  # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
-  # documentation for more information about their specific syntax and use.
+  #   # Customize the amount of memory on the VM:
+     vb.memory = "1024"
+     vb.cpus = "2"
+     vb.name = "kickstarter"
+     
+  end
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
     sudo apt-get update
     sudo apt-get upgrade
@@ -126,7 +111,7 @@ Vagrant.configure("2") do |config|
     export VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3'
     source /usr/local/bin/virtualenvwrapper.sh
 
-    mkvirtualenv course
+    mkvirtualenv kickstarter
 
     pip install numpy
     pip install pandas
@@ -146,8 +131,7 @@ Vagrant.configure("2") do |config|
     # Debian package
     toggleglobalsitepackages
 
-    sudo echo "alias notebook=\"jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.token=''\"" >> /home/vagrant/.bashrc
-
+    
     sudo apt-get install -y git
     cd ~
     git clone https://github.com/opencv/opencv.git
@@ -222,17 +206,6 @@ Vagrant.configure("2") do |config|
     echo "$ vagrant ssh"
     echo "To start the GUI:"
     echo "$ startxfce4&"
-    echo "To start the notebook server:"
-    echo "$ cd /python_course/notebooks"
-    echo "$ jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.token=''"
+    echo "$ cd /code"
   SHELL
 end
-
-
-# PS:
-# Installation of OpenCV is based on:
-# http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/
-# Installation of geckodriver is based on:
-# https://gist.github.com/tristandostaler/2f8b28f2bf503db4422a5549e8fed538
-# Installation of PyCharm is based on:
-# http://thelinuxfaq.com/296-how-to-install-pycharm-on-ubuntu-14-04-debian-7-linux-mint-17
