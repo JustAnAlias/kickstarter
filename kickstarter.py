@@ -6,6 +6,7 @@ import datetime
 csv_output = open("sample.csv", "w")
 
 end_page = 5;
+urls= []
 
 #scan through pages 1 to end_page for data, 20 results per page
 for page in range(1,end_page+1):
@@ -23,7 +24,12 @@ for page in range(1,end_page+1):
             str(datetime.datetime.fromtimestamp(data["projects"][index]["launched_at"])),
             str(datetime.datetime.fromtimestamp(data["projects"][index]["deadline"]))))
         st = data["projects"][index]["id"]
+	#urls.update("https://www.kickstarter.com/projects/"+str(data["projects"][index]["id"])[:-1]+"/"+data["projects"][index]["slug"])
         #print("",data["projects"][index]["id"],"/"+data["projects"][index]["slug"] )
-        print("https://www.kickstarter.com/projects/"+str(data["projects"][index]["id"])[:-1]+"/"+data["projects"][index]["slug"] )
+        #urls.append("https://www.kickstarter.com/projects/"+str(data["projects"][index]["id"])[:-1]+"/"+data["projects"][index]["slug"])
+        urls.append('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
+        
+	#urls.update("urls": url)
 
+print(urls)
 csv_output.close()
