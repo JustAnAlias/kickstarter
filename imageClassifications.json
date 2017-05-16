@@ -1,0 +1,429 @@
+{
+    "images": [
+        {
+            "image": "images.zip/videovideo289.jpg",
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "score": 0.599,
+                            "type_hierarchy": "/device/fastener/Windsor knot",
+                            "class": "Windsor knot"
+                        },
+                        {
+                            "score": 0.599,
+                            "class": "knot"
+                        },
+                        {
+                            "score": 0.599,
+                            "class": "fastener"
+                        },
+                        {
+                            "score": 0.656,
+                            "class": "device"
+                        },
+                        {
+                            "score": 0.588,
+                            "type_hierarchy": "/garment/neckwear/necktie/four-in-hand (neck tie)",
+                            "class": "four-in-hand (neck tie)"
+                        },
+                        {
+                            "score": 0.594,
+                            "class": "necktie"
+                        },
+                        {
+                            "score": 0.596,
+                            "class": "neckwear"
+                        },
+                        {
+                            "score": 0.596,
+                            "class": "garment"
+                        },
+                        {
+                            "score": 0.58,
+                            "type_hierarchy": "/food/nutrition/milk/mother and baby",
+                            "class": "mother and baby"
+                        },
+                        {
+                            "score": 0.584,
+                            "class": "milk"
+                        },
+                        {
+                            "score": 0.584,
+                            "class": "nutrition"
+                        },
+                        {
+                            "score": 0.584,
+                            "class": "food"
+                        },
+                        {
+                            "score": 0.53,
+                            "type_hierarchy": "/device/seat belt",
+                            "class": "seat belt"
+                        },
+                        {
+                            "score": 0.609,
+                            "class": "coal black color"
+                        },
+                        {
+                            "score": 0.56,
+                            "class": "indigo color"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "images.zip/videovideo322.jpg",
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "score": 0.656,
+                            "type_hierarchy": "/medium/telecommunication/telephone",
+                            "class": "telephone"
+                        },
+                        {
+                            "score": 0.575,
+                            "class": "telecommunication"
+                        },
+                        {
+                            "score": 0.576,
+                            "class": "medium"
+                        },
+                        {
+                            "score": 0.549,
+                            "type_hierarchy": "/garment/neckwear/necktie/four-in-hand (neck tie)",
+                            "class": "four-in-hand (neck tie)"
+                        },
+                        {
+                            "score": 0.607,
+                            "class": "necktie"
+                        },
+                        {
+                            "score": 0.608,
+                            "class": "neckwear"
+                        },
+                        {
+                            "score": 0.608,
+                            "class": "garment"
+                        },
+                        {
+                            "score": 0.548,
+                            "type_hierarchy": "/person/osteopath (therapist)",
+                            "class": "osteopath (therapist)"
+                        },
+                        {
+                            "score": 0.549,
+                            "class": "person"
+                        },
+                        {
+                            "score": 0.53,
+                            "type_hierarchy": "/garment/neckwear/necktie/Windsor tie",
+                            "class": "Windsor tie"
+                        },
+                        {
+                            "score": 0.941,
+                            "class": "coal black color"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "images.zip/videovideo354.jpg",
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "score": 0.583,
+                            "type_hierarchy": "/person/physical therapist",
+                            "class": "physical therapist"
+                        },
+                        {
+                            "score": 0.686,
+                            "class": "person"
+                        },
+                        {
+                            "score": 0.577,
+                            "type_hierarchy": "/person/osteopath (therapist)",
+                            "class": "osteopath (therapist)"
+                        },
+                        {
+                            "score": 0.555,
+                            "type_hierarchy": "/plaster/finish coat",
+                            "class": "finish coat"
+                        },
+                        {
+                            "score": 0.555,
+                            "class": "plaster"
+                        },
+                        {
+                            "score": 0.53,
+                            "class": "ballot box"
+                        },
+                        {
+                            "score": 0.532,
+                            "class": "box"
+                        },
+                        {
+                            "score": 0.935,
+                            "class": "reddish brown color"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "images.zip/videovideo62.jpg",
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "score": 0.635,
+                            "type_hierarchy": "/person/people",
+                            "class": "people"
+                        },
+                        {
+                            "score": 0.636,
+                            "class": "person"
+                        },
+                        {
+                            "score": 0.551,
+                            "class": "dressing room"
+                        },
+                        {
+                            "score": 0.552,
+                            "class": "room"
+                        },
+                        {
+                            "score": 0.55,
+                            "type_hierarchy": "/overgarment/toga cloak",
+                            "class": "toga cloak"
+                        },
+                        {
+                            "score": 0.551,
+                            "class": "cloak"
+                        },
+                        {
+                            "score": 0.551,
+                            "class": "overgarment"
+                        },
+                        {
+                            "score": 0.561,
+                            "class": "garment"
+                        },
+                        {
+                            "score": 0.548,
+                            "type_hierarchy": "/person/people/woman",
+                            "class": "woman"
+                        },
+                        {
+                            "score": 0.53,
+                            "type_hierarchy": "/dress/outfit",
+                            "class": "outfit"
+                        },
+                        {
+                            "score": 0.532,
+                            "class": "dress"
+                        },
+                        {
+                            "score": 0.709,
+                            "class": "sage green color"
+                        },
+                        {
+                            "score": 0.514,
+                            "class": "ash grey color"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "images.zip/videovideo63.jpg",
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "score": 0.572,
+                            "class": "dressing room"
+                        },
+                        {
+                            "score": 0.572,
+                            "class": "room"
+                        },
+                        {
+                            "score": 0.548,
+                            "type_hierarchy": "/dress/outfit",
+                            "class": "outfit"
+                        },
+                        {
+                            "score": 0.549,
+                            "class": "dress"
+                        },
+                        {
+                            "score": 0.532,
+                            "type_hierarchy": "/person/woman",
+                            "class": "woman"
+                        },
+                        {
+                            "score": 0.718,
+                            "class": "person"
+                        },
+                        {
+                            "score": 0.53,
+                            "class": "dumbbell"
+                        },
+                        {
+                            "score": 0.584,
+                            "type_hierarchy": "/person/people",
+                            "class": "people"
+                        },
+                        {
+                            "score": 0.664,
+                            "class": "sage green color"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "images.zip/videovideo66.jpg",
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "score": 0.652,
+                            "type_hierarchy": "/person/entertainer/master of ceremonies",
+                            "class": "master of ceremonies"
+                        },
+                        {
+                            "score": 0.653,
+                            "class": "entertainer"
+                        },
+                        {
+                            "score": 0.654,
+                            "class": "person"
+                        },
+                        {
+                            "score": 0.553,
+                            "type_hierarchy": "/overgarment/swallow-tailed coat",
+                            "class": "swallow-tailed coat"
+                        },
+                        {
+                            "score": 0.555,
+                            "class": "coat"
+                        },
+                        {
+                            "score": 0.555,
+                            "class": "overgarment"
+                        },
+                        {
+                            "score": 0.677,
+                            "class": "garment"
+                        },
+                        {
+                            "score": 0.54,
+                            "type_hierarchy": "/garment/neckwear/necktie/black tie",
+                            "class": "black tie"
+                        },
+                        {
+                            "score": 0.551,
+                            "class": "necktie"
+                        },
+                        {
+                            "score": 0.614,
+                            "class": "neckwear"
+                        },
+                        {
+                            "score": 0.53,
+                            "type_hierarchy": "/garment/cravat (neckwear)",
+                            "class": "cravat (neckwear)"
+                        },
+                        {
+                            "score": 0.674,
+                            "class": "coal black color"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "images.zip/videovideo67.jpg",
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "score": 0.662,
+                            "type_hierarchy": "/person/entertainer/master of ceremonies",
+                            "class": "master of ceremonies"
+                        },
+                        {
+                            "score": 0.662,
+                            "class": "entertainer"
+                        },
+                        {
+                            "score": 0.716,
+                            "class": "person"
+                        },
+                        {
+                            "score": 0.556,
+                            "type_hierarchy": "/person/housekeeper",
+                            "class": "housekeeper"
+                        },
+                        {
+                            "score": 0.542,
+                            "type_hierarchy": "/garment/cravat (neckwear)",
+                            "class": "cravat (neckwear)"
+                        },
+                        {
+                            "score": 0.555,
+                            "class": "neckwear"
+                        },
+                        {
+                            "score": 0.556,
+                            "class": "garment"
+                        },
+                        {
+                            "score": 0.53,
+                            "type_hierarchy": "/medium/telecommunication/telephone call",
+                            "class": "telephone call"
+                        },
+                        {
+                            "score": 0.531,
+                            "class": "telephone"
+                        },
+                        {
+                            "score": 0.531,
+                            "class": "telecommunication"
+                        },
+                        {
+                            "score": 0.532,
+                            "class": "medium"
+                        },
+                        {
+                            "score": 0.721,
+                            "class": "pale yellow color"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "images_processed": 7,
+    "custom_classes": 0
+}

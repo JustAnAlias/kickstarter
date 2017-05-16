@@ -18,4 +18,4 @@ def makeFrames(videofile):
                         print(count, "frames extracted")
         print("{} images are extracted in {}.".format(count,folder))
 
-makeFrames('bears-vs-babies-a-card-game-1-base.mp4')
+makeFrames('videovideo.mp4')
