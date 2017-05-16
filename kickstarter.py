@@ -1,6 +1,7 @@
 import json
 import requests
 import datetime
+import opencv
 
 #data outputs to a CSV file in the current directory
 csv_output = open("sample.csv", "w")
