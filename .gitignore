@@ -1,5 +1,7 @@
 *.mp4
 
+apiKey.json
+
 .vagrant/
 ubuntu-xenial-16.04-cloudimg-console.log
 notebooks/.ipynb_checkpoints/
