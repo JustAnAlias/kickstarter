@@ -1,9 +1,9 @@
 import os
 import cv2
 
-def makeFrames(videofile):
+def makeFrames(videopath, videofile):
         videoname = videofile[:-4]
-        folder = videoname
+        folder = os.path.join(videopath, 'frames')
         os.mkdir(folder)
 
         vidcap = cv2.VideoCapture(videofile)
@@ -18,4 +18,6 @@ def makeFrames(videofile):
                         print(count, "frames extracted")
         print("{} images are extracted in {}.".format(count,folder))
 
-makeFrames('videovideo.mp4')
+
+
+makeFrames('./videos/bears-vs-babies-a-card-game', 'bears-vs-babies-a-card-game-1-base.mp4')
