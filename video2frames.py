@@ -4,14 +4,15 @@ import cv2
 def makeFrames(videopath, videofile):
         videoname = videofile[:-4]
         folder = os.path.join(videopath, 'frames')
-        os.mkdir(folder)
-
-        vidcap = cv2.VideoCapture(videofile)
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+        videofilepath = os.path.join(videopath, videofile)
+        vidcap = cv2.VideoCapture(videofilepath)
         count = 0
         while True:
                 success,image = vidcap.read()
                 if not success:
-                        break
+                    break
                 cv2.imwrite(os.path.join(folder,videoname+"{:d}.jpg".format(count)), image)
                 count += 1
                 if(count % 100 == 0):

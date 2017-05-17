@@ -75,4 +75,4 @@ class VideoDownloader:
 
 if __name__ == '__main__':
     shit = VideoDownloader()
-    shit.run()
+shit.run()
