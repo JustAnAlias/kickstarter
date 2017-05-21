@@ -37,6 +37,9 @@ def destroy_New_Toplevel_1():
     w.destroy()
     w = None
 
+numList = (1,2,3,4,5,6)
+def dynBut():
+        for i in range(numList):
 
 class New_Toplevel_1:
     def __init__(self, top=None):
@@ -81,6 +84,10 @@ class New_Toplevel_1:
         self.Button1.configure(pady="0")
         self.Button1.configure(text='''Start''')
 
+        self.newButton = tk.Button(root, text=str(i+1),
+        self.Frame1.boardButtons.append(newButton))
+
+		
         self.TProgressbar1 = ttk.Progressbar(self.Frame1)
         self.TProgressbar1.place(relx=0.13, rely=0.26, relwidth=0.25
                 , relheight=0.0, height=22)

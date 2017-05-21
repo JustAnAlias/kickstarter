@@ -238,5 +238,365 @@
         "name": "nebia-shower-better-experience-70-less-water",
         "url": "https://www.kickstarter.com/projects/98418421/nebia-shower-better-experience-70-less-water",
         "category": "Product Design"
+    },
+    "wish-i-was-here-1": {
+        "id": 1871494789,
+        "name": "wish-i-was-here-1",
+        "url": "https://www.kickstarter.com/projects/187149478/wish-i-was-here-1",
+        "category": "Narrative Film"
+    },
+    "the-superbook-turn-your-smartphone-into-a-laptop-f": {
+        "id": 49801906,
+        "name": "the-superbook-turn-your-smartphone-into-a-laptop-f",
+        "url": "https://www.kickstarter.com/projects/4980190/the-superbook-turn-your-smartphone-into-a-laptop-f",
+        "category": "Hardware"
+    },
+    "tiko-the-unibody-3d-printer": {
+        "id": 369559399,
+        "name": "tiko-the-unibody-3d-printer",
+        "url": "https://www.kickstarter.com/projects/36955939/tiko-the-unibody-3d-printer",
+        "category": "3D Printing"
+    },
+    "form-1-an-affordable-professional-3d-printer": {
+        "id": 1605249489,
+        "name": "form-1-an-affordable-professional-3d-printer",
+        "url": "https://www.kickstarter.com/projects/160524948/form-1-an-affordable-professional-3d-printer",
+        "category": "Technology"
+    },
+    "wasteland-2": {
+        "id": 2000827215,
+        "name": "wasteland-2",
+        "url": "https://www.kickstarter.com/projects/200082721/wasteland-2",
+        "category": "Video Games"
+    },
+    "zombicide-season-3": {
+        "id": 1412753497,
+        "name": "zombicide-season-3",
+        "url": "https://www.kickstarter.com/projects/141275349/zombicide-season-3",
+        "category": "Tabletop Games"
+    },
+    "battletech": {
+        "id": 474183945,
+        "name": "battletech",
+        "url": "https://www.kickstarter.com/projects/47418394/battletech",
+        "category": "Video Games"
+    },
+    "reaper-miniatures-bones-3-the-search-for-mr-bones": {
+        "id": 1194924825,
+        "name": "reaper-miniatures-bones-3-the-search-for-mr-bones",
+        "url": "https://www.kickstarter.com/projects/119492482/reaper-miniatures-bones-3-the-search-for-mr-bones",
+        "category": "Tabletop Games"
+    },
+    "ossic-x-the-first-3d-audio-headphones-calibrated-t": {
+        "id": 1241205786,
+        "name": "ossic-x-the-first-3d-audio-headphones-calibrated-t",
+        "url": "https://www.kickstarter.com/projects/124120578/ossic-x-the-first-3d-audio-headphones-calibrated-t",
+        "category": "Sound"
+    },
+    "mythic-battles-pantheon": {
+        "id": 1100539632,
+        "name": "mythic-battles-pantheon",
+        "url": "https://www.kickstarter.com/projects/110053963/mythic-battles-pantheon",
+        "category": "Tabletop Games"
+    },
+    "purple-pillow-the-worlds-first-no-pressure-head-be": {
+        "id": 1590875201,
+        "name": "purple-pillow-the-worlds-first-no-pressure-head-be",
+        "url": "https://www.kickstarter.com/projects/159087520/purple-pillow-the-worlds-first-no-pressure-head-be",
+        "category": "Technology"
+    },
+    "the-duchess-a-gaming-table-from-boardgametablescom": {
+        "id": 867411036,
+        "name": "the-duchess-a-gaming-table-from-boardgametablescom",
+        "url": "https://www.kickstarter.com/projects/86741103/the-duchess-a-gaming-table-from-boardgametablescom",
+        "category": "Tabletop Games"
+    },
+    "taga-20-the-ultimate-most-affordable-family-bike": {
+        "id": 338282436,
+        "name": "taga-20-the-ultimate-most-affordable-family-bike",
+        "url": "https://www.kickstarter.com/projects/33828243/taga-20-the-ultimate-most-affordable-family-bike",
+        "category": "Product Design"
+    },
+    "elite-dangerous": {
+        "id": 880009511,
+        "name": "elite-dangerous",
+        "url": "https://www.kickstarter.com/projects/88000951/elite-dangerous",
+        "category": "Video Games"
+    },
+    "superscreen": {
+        "id": 1241933635,
+        "name": "superscreen",
+        "url": "https://www.kickstarter.com/projects/124193363/superscreen",
+        "category": "Gadgets"
+    },
+    "revols-premium-quick-custom-fit-wireless-earphones": {
+        "id": 1897028933,
+        "name": "revols-premium-quick-custom-fit-wireless-earphones",
+        "url": "https://www.kickstarter.com/projects/189702893/revols-premium-quick-custom-fit-wireless-earphones",
+        "category": "Sound"
+    },
+    "homestuck-adventure-game": {
+        "id": 97277862,
+        "name": "homestuck-adventure-game",
+        "url": "https://www.kickstarter.com/projects/9727786/homestuck-adventure-game",
+        "category": "Video Games"
+    },
+    "smart-parka-worlds-first-complete-winter-coat": {
+        "id": 1829734226,
+        "name": "smart-parka-worlds-first-complete-winter-coat",
+        "url": "https://www.kickstarter.com/projects/182973422/smart-parka-worlds-first-complete-winter-coat",
+        "category": "Product Design"
+    },
+    "oculus-rift-step-into-the-game": {
+        "id": 1028274367,
+        "name": "oculus-rift-step-into-the-game",
+        "url": "https://www.kickstarter.com/projects/102827436/oculus-rift-step-into-the-game",
+        "category": "Gaming Hardware"
+    },
+    "sense-know-more-sleep-better": {
+        "id": 27174402,
+        "name": "sense-know-more-sleep-better",
+        "url": "https://www.kickstarter.com/projects/2717440/sense-know-more-sleep-better",
+        "category": "Technology"
+    },
+    "skycamp-the-perfect-roof-top-tent-for-travelers-on": {
+        "id": 59589719,
+        "name": "skycamp-the-perfect-roof-top-tent-for-travelers-on",
+        "url": "https://www.kickstarter.com/projects/5958971/skycamp-the-perfect-roof-top-tent-for-travelers-on",
+        "category": "Product Design"
+    },
+    "dwarven-forges-city-builder-system": {
+        "id": 528291985,
+        "name": "dwarven-forges-city-builder-system",
+        "url": "https://www.kickstarter.com/projects/52829198/dwarven-forges-city-builder-system",
+        "category": "Tabletop Games"
+    },
+    "3doodler-the-worlds-first-3d-printing-pen": {
+        "id": 101767263,
+        "name": "3doodler-the-worlds-first-3d-printing-pen",
+        "url": "https://www.kickstarter.com/projects/10176726/3doodler-the-worlds-first-3d-printing-pen",
+        "category": "Hardware"
+    },
+    "olo-the-first-ever-smartphone-3d-printer": {
+        "id": 95124697,
+        "name": "olo-the-first-ever-smartphone-3d-printer",
+        "url": "https://www.kickstarter.com/projects/9512469/olo-the-first-ever-smartphone-3d-printer",
+        "category": "Technology"
+    },
+    "speedx-leopard-the-first-ever-smart-aero-road-bike": {
+        "id": 137993716,
+        "name": "speedx-leopard-the-first-ever-smart-aero-road-bike",
+        "url": "https://www.kickstarter.com/projects/13799371/speedx-leopard-the-first-ever-smart-aero-road-bike",
+        "category": "Technology"
+    },
+    "znaps-the-9-magnetic-adapter-for-your-mobile-devic": {
+        "id": 2095857140,
+        "name": "znaps-the-9-magnetic-adapter-for-your-mobile-devic",
+        "url": "https://www.kickstarter.com/projects/209585714/znaps-the-9-magnetic-adapter-for-your-mobile-devic",
+        "category": "Technology"
+    },
+    "hex-mmo-trading-card-game": {
+        "id": 728438726,
+        "name": "hex-mmo-trading-card-game",
+        "url": "https://www.kickstarter.com/projects/72843872/hex-mmo-trading-card-game",
+        "category": "Video Games"
+    },
+    "snapmaker-the-all-metal-3d-printer": {
+        "id": 1856881808,
+        "name": "snapmaker-the-all-metal-3d-printer",
+        "url": "https://www.kickstarter.com/projects/185688180/snapmaker-the-all-metal-3d-printer",
+        "category": "3D Printing"
+    },
+    "zombicide-season-2": {
+        "id": 1692752007,
+        "name": "zombicide-season-2",
+        "url": "https://www.kickstarter.com/projects/169275200/zombicide-season-2",
+        "category": "Tabletop Games"
+    },
+    "camelot-unchained": {
+        "id": 1682353635,
+        "name": "camelot-unchained",
+        "url": "https://www.kickstarter.com/projects/168235363/camelot-unchained",
+        "category": "Video Games"
+    },
+    "planetary-annihilation-a-next-generation-rts": {
+        "id": 1957695328,
+        "name": "planetary-annihilation-a-next-generation-rts",
+        "url": "https://www.kickstarter.com/projects/195769532/planetary-annihilation-a-next-generation-rts",
+        "category": "Video Games"
+    },
+    "vue-your-everyday-smart-glasses": {
+        "id": 635657578,
+        "name": "vue-your-everyday-smart-glasses",
+        "url": "https://www.kickstarter.com/projects/63565757/vue-your-everyday-smart-glasses",
+        "category": "Product Design"
+    },
+    "ashes-of-creation-new-mmorpg-by-intrepid-studios": {
+        "id": 786189898,
+        "name": "ashes-of-creation-new-mmorpg-by-intrepid-studios",
+        "url": "https://www.kickstarter.com/projects/78618989/ashes-of-creation-new-mmorpg-by-intrepid-studios",
+        "category": "Video Games"
+    },
+    "dwarven-forges-caverns-dwarvenite-game-tiles-mini": {
+        "id": 157085738,
+        "name": "dwarven-forges-caverns-dwarvenite-game-tiles-mini",
+        "url": "https://www.kickstarter.com/projects/15708573/dwarven-forges-caverns-dwarvenite-game-tiles-mini",
+        "category": "Tabletop Games"
+    },
+    "star-citizen": {
+        "id": 1867183224,
+        "name": "star-citizen",
+        "url": "https://www.kickstarter.com/projects/186718322/star-citizen",
+        "category": "Video Games"
+    },
+    "ticwatch-2-the-most-interactive-smartwatch": {
+        "id": 1725178729,
+        "name": "ticwatch-2-the-most-interactive-smartwatch",
+        "url": "https://www.kickstarter.com/projects/172517872/ticwatch-2-the-most-interactive-smartwatch",
+        "category": "Wearables"
+    },
+    "chip-the-worlds-first-9-computer": {
+        "id": 1552929469,
+        "name": "chip-the-worlds-first-9-computer",
+        "url": "https://www.kickstarter.com/projects/155292946/chip-the-worlds-first-9-computer",
+        "category": "Hardware"
+    },
+    "kingdom-death-monster": {
+        "id": 496736434,
+        "name": "kingdom-death-monster",
+        "url": "https://www.kickstarter.com/projects/49673643/kingdom-death-monster",
+        "category": "Tabletop Games"
+    },
+    "divinity-original-sin-2": {
+        "id": 275698538,
+        "name": "divinity-original-sin-2",
+        "url": "https://www.kickstarter.com/projects/27569853/divinity-original-sin-2",
+        "category": "Video Games"
+    },
+    "zungle-wear-the-beats": {
+        "id": 2137602357,
+        "name": "zungle-wear-the-beats",
+        "url": "https://www.kickstarter.com/projects/213760235/zungle-wear-the-beats",
+        "category": "Product Design"
+    },
+    "take-control-of-your-sleep-with-kokoon-eeg-headpho": {
+        "id": 874722536,
+        "name": "take-control-of-your-sleep-with-kokoon-eeg-headpho",
+        "url": "https://www.kickstarter.com/projects/87472253/take-control-of-your-sleep-with-kokoon-eeg-headpho",
+        "category": "Product Design"
+    },
+    "pico-c-craft-brewing-for-all": {
+        "id": 1546547919,
+        "name": "pico-c-craft-brewing-for-all",
+        "url": "https://www.kickstarter.com/projects/154654791/pico-c-craft-brewing-for-all",
+        "category": "Food"
+    },
+    "sisyphus-the-kinetic-art-table": {
+        "id": 1332157704,
+        "name": "sisyphus-the-kinetic-art-table",
+        "url": "https://www.kickstarter.com/projects/133215770/sisyphus-the-kinetic-art-table",
+        "category": "Sculpture"
+    },
+    "shroud-of-the-avatar-forsaken-virtues-0": {
+        "id": 1156271755,
+        "name": "shroud-of-the-avatar-forsaken-virtues-0",
+        "url": "https://www.kickstarter.com/projects/115627175/shroud-of-the-avatar-forsaken-virtues-0",
+        "category": "Video Games"
+    },
+    "blue-mountain-state-the-movie": {
+        "id": 721748605,
+        "name": "blue-mountain-state-the-movie",
+        "url": "https://www.kickstarter.com/projects/72174860/blue-mountain-state-the-movie",
+        "category": "Narrative Film"
+    },
+    "dwarven-forges-game-tiles-revolutionary-miniature": {
+        "id": 1826778276,
+        "name": "dwarven-forges-game-tiles-revolutionary-miniature",
+        "url": "https://www.kickstarter.com/projects/182677827/dwarven-forges-game-tiles-revolutionary-miniature",
+        "category": "Tabletop Games"
+    },
+    "adv3nture-hoodie-with-23-pockets-and-features": {
+        "id": 934509021,
+        "name": "adv3nture-hoodie-with-23-pockets-and-features",
+        "url": "https://www.kickstarter.com/projects/93450902/adv3nture-hoodie-with-23-pockets-and-features",
+        "category": "Apparel"
+    },
+    "kingdom-come-deliverance": {
+        "id": 610665069,
+        "name": "kingdom-come-deliverance",
+        "url": "https://www.kickstarter.com/projects/61066506/kingdom-come-deliverance",
+        "category": "Video Games"
+    },
+    "hyperdrivetm-compact-thunderbolt-3-usb-c-hub-for-m": {
+        "id": 496736487,
+        "name": "hyperdrivetm-compact-thunderbolt-3-usb-c-hub-for-m",
+        "url": "https://www.kickstarter.com/projects/49673648/hyperdrivetm-compact-thunderbolt-3-usb-c-hub-for-m",
+        "category": "Product Design"
+    },
+    "shadowrun-returns": {
+        "id": 531044328,
+        "name": "shadowrun-returns",
+        "url": "https://www.kickstarter.com/projects/53104432/shadowrun-returns",
+        "category": "Video Games"
+    },
+    "everlast": {
+        "id": 951470114,
+        "name": "everlast",
+        "url": "https://www.kickstarter.com/projects/95147011/everlast",
+        "category": "Gadgets"
+    },
+    "anova-precision-cooker-cook-sous-vide-with-your-ip": {
+        "id": 108427247,
+        "name": "anova-precision-cooker-cook-sous-vide-with-your-ip",
+        "url": "https://www.kickstarter.com/projects/10842724/anova-precision-cooker-cook-sous-vide-with-your-ip",
+        "category": "Food"
+    },
+    "scythe": {
+        "id": 1648823174,
+        "name": "scythe",
+        "url": "https://www.kickstarter.com/projects/164882317/scythe",
+        "category": "Tabletop Games"
+    },
+    "nura-headphones-that-learn-and-adapt-to-your-uniqu": {
+        "id": 1213014441,
+        "name": "nura-headphones-that-learn-and-adapt-to-your-uniqu",
+        "url": "https://www.kickstarter.com/projects/121301444/nura-headphones-that-learn-and-adapt-to-your-uniqu",
+        "category": "Sound"
+    },
+    "dwarven-forges-castles-3-d-modular-terrain-for-gam": {
+        "id": 1136786922,
+        "name": "dwarven-forges-castles-3-d-modular-terrain-for-gam",
+        "url": "https://www.kickstarter.com/projects/113678692/dwarven-forges-castles-3-d-modular-terrain-for-gam",
+        "category": "Tabletop Games"
+    },
+    "ulo": {
+        "id": 2123383062,
+        "name": "ulo",
+        "url": "https://www.kickstarter.com/projects/212338306/ulo",
+        "category": "Product Design"
+    },
+    "crowfall-throne-war-pc-mmo": {
+        "id": 474144967,
+        "name": "crowfall-throne-war-pc-mmo",
+        "url": "https://www.kickstarter.com/projects/47414496/crowfall-throne-war-pc-mmo",
+        "category": "Video Games"
+    },
+    "pine-a64-first-15-64-bit-single-board-super-comput": {
+        "id": 577817754,
+        "name": "pine-a64-first-15-64-bit-single-board-super-comput",
+        "url": "https://www.kickstarter.com/projects/57781775/pine-a64-first-15-64-bit-single-board-super-comput",
+        "category": "Hardware"
+    },
+    "the-nomatic-travel-bag": {
+        "id": 1660627792,
+        "name": "the-nomatic-travel-bag",
+        "url": "https://www.kickstarter.com/projects/166062779/the-nomatic-travel-bag",
+        "category": "Product Design"
+    },
+    "arcadia-quest-inferno": {
+        "id": 1984444511,
+        "name": "arcadia-quest-inferno",
+        "url": "https://www.kickstarter.com/projects/198444451/arcadia-quest-inferno",
+        "category": "Tabletop Games"
     }
 }

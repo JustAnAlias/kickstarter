@@ -6,7 +6,7 @@ import datetime
 #data outputs to a CSV file in the current directory
 csv_output = open("sample.csv", "w")
 
-end_page = 2;
+end_page = 5;
 urls= []
 wee={}
 
@@ -33,6 +33,7 @@ for page in range(1,end_page+1):
         url = ('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
 #        urls.append(url)
         wee[data["projects"][index]["slug"]] = {"id": data["projects"][index]["id"], "name": data["projects"][index]["slug"], "url": url, "category": data["projects"][index]["category"]["name"]}
+        #wee = "projects"
 #        wee[data["projects"][index]["slug"]] = {"id": data["projects"][index]["id"]}
 #        wee[data["projects"][index]["slug"]] = {"url": url}
 #        wee['url'] = urls
