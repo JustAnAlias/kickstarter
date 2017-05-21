@@ -1,7 +1,7 @@
 import json
 import requests
 import datetime
-import opencv
+#import opencv
 
 #data outputs to a CSV file in the current directory
 csv_output = open("sample.csv", "w")
@@ -32,7 +32,7 @@ for page in range(1,end_page+1):
         #urls.append('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
         url = ('/'.join(("https://www.kickstarter.com/projects", str(data["projects"][index]["id"])[:-1], data["projects"][index]["slug"])))
 #        urls.append(url)
-        wee[data["projects"][index]["slug"]] = {"id": data["projects"][index]["id"], "name": data["projects"][index]["slug"], "url": url}
+        wee[data["projects"][index]["slug"]] = {"id": data["projects"][index]["id"], "name": data["projects"][index]["slug"], "url": url, "category": data["projects"][index]["category"]["name"]}
 #        wee[data["projects"][index]["slug"]] = {"id": data["projects"][index]["id"]}
 #        wee[data["projects"][index]["slug"]] = {"url": url}
 #        wee['url'] = urls
