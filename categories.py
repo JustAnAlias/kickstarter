@@ -25,9 +25,9 @@ for project in data.keys():
              if(category not in categoriesDict.keys()):
                 categoriesDict[category] = []
                 categoriesDict[category].append(data[project]["name"])
-                print("category : ", category, "projects : ", categoriesDict[category])
+                # print("category : ", category, "projects : ", categoriesDict[category])
              else:
                  categoriesDict[category].append(data[project]["name"])
 
 
-print(categoriesDict)
+pprint(categoriesDict)

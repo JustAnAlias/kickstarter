@@ -57,10 +57,10 @@ Vagrant.configure("2") do |config|
      vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-     vb.memory = "1024"
+     vb.memory = "4096"
      vb.cpus = "2"
      vb.name = "kickstarter"
-     
+
   end
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
     sudo apt-get update
@@ -133,7 +133,7 @@ Vagrant.configure("2") do |config|
     toggleglobalsitepackages
     sudo echo "alias notebook=\"jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.token=''\"" >> /home/vagrant/.bashrc
 
-    
+
     sudo apt-get install -y git
     cd ~
     git clone https://github.com/opencv/opencv.git
