@@ -22,10 +22,12 @@ categoriesList.sort()
 for project in data.keys():
     for category in categoriesList:
          if(data[project]["category"] == category):
-             if(category not in categoriesDict):
-                categoriesDict[category] = data[project]["name"]
+             if(category not in categoriesDict.keys()):
+                categoriesDict[category] = []
+                categoriesDict[category].append(data[project]["name"])
+                print("category : ", category, "projects : ", categoriesDict[category])
              else:
-                 pass
+                 categoriesDict[category].append(data[project]["name"])
 
 
-pprint(categoriesDict)
+print(categoriesDict)
