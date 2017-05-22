@@ -5,20 +5,27 @@ with open('data.json') as data_file:
     data = json.load(data_file)
 projects = data.keys()
 
-categories = []
+categoriesList = []
+categoriesDict = {}
+
 
 for project in projects:
-
     name = data[project]['category']
-    if name not in categories:
-        categories.append(name)
+    if name not in categoriesList:
+        categoriesList.append(name)
 
-#for values in categories:
+#for values in categoriesList:
         #print(values)
 
-
-categories.sort()
+count = 0
+categoriesList.sort()
 for project in data.keys():
-    for category in categories:
+    for category in categoriesList:
          if(data[project]["category"] == category):
-             print(data[project]["name"])
+             if(category not in categoriesDict):
+                categoriesDict[category] = data[project]["name"]
+             else:
+
+
+
+pprint(categoriesDict)
