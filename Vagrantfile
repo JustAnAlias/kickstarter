@@ -131,6 +131,7 @@ Vagrant.configure("2") do |config|
     # This is necessary to get matplotlib support from system-wide
     # Debian package
     toggleglobalsitepackages
+    sudo echo "alias notebook=\"jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.token=''\"" >> /home/vagrant/.bashrc
 
     
     sudo apt-get install -y git
