@@ -126,6 +126,7 @@ Vagrant.configure("2") do |config|
     pip install folium
     pip install watson-developer-cloud
     pip install beautifulsoup4
+    pip install tqdm
 
     # This is necessary to get matplotlib support from system-wide
     # Debian package
@@ -203,9 +204,10 @@ Vagrant.configure("2") do |config|
     echo "=                             DONE                                ="
     echo "==================================================================="
     echo "To log onto the VM:"
-    echo "$ vagrant ssh"
+    echo "$ vagrant ssh or use putty 127.0.0.1:2222 vagrant/vagrant"
     echo "To start the GUI:"
     echo "$ startxfce4&"
     echo "$ cd /code"
+    echo "$ workon kickstarter"
   SHELL
 end
