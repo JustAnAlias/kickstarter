@@ -25,7 +25,7 @@ for project in data.keys():
              if(category not in categoriesDict):
                 categoriesDict[category] = data[project]["name"]
              else:
-
+                 pass
 
 
 pprint(categoriesDict)
