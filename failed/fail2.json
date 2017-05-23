@@ -1,0 +1,120 @@
+{
+    "projects": [{
+        "id": 2055681419,
+        "photo": {
+            "key": "assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg",
+            "full": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=560&h=315&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=e0b346507900cc389a2bf42845566d9b",
+            "ed": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=338&h=190&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=630874cf08c2126a30a6a64ac62cbc6c",
+            "med": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=266&h=150&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=946e3ca550a6d5b0549ce6f330dcb22e",
+            "little": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=200&h=112&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=ecf27cae40d78fbb819588d3b0cdde5b",
+            "small": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=160&h=90&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=1c3f388747f386b8f56149d0abcf09d6",
+            "thumb": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=40&h=22&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=e8fb65fe4a97d68b2f5e33a0d2046b7e",
+            "1024x576": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=1024&h=576&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=dbe58b481e53037d7eb1b00db8fd1723",
+            "1536x864": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=1536&h=864&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=5c8f0c9a3ee497cac1b0e215cc64a300"
+        },
+        "name": "Publish My Book \"I Hope You Read This Someday\"",
+        "blurb": "Rants, truths, and raw thoughts bound together into one vastly relatable book. It doesn't get closer to the human core than this.",
+        "goal": 2500.0,
+        "pledged": 109.0,
+        "state": "failed",
+        "slug": "publish-my-book-i-hope-you-read-this-someday",
+        "disable_communication": false,
+        "country": "US",
+        "currency": "USD",
+        "currency_symbol": "$",
+        "currency_trailing_code": true,
+        "deadline": 1354216566,
+        "state_changed_at": 1354216566,
+        "created_at": 1351114110,
+        "launched_at": 1351620966,
+        "staff_pick": false,
+        "backers_count": 6,
+        "static_usd_rate": 1.0,
+        "usd_pledged": "109.0",
+        "creator": {
+            "id": 1316923237,
+            "name": "Michaeline Singer",
+            "is_registered": true,
+            "avatar": {
+                "thumb": "https://ksr-ugc.imgix.net/assets/007/035/577/3d06d45b0e6017b3cfc577c42ef467fd_original.jpg?w=40&h=40&fit=crop&v=1461429882&auto=format&q=92&s=28feb9148d6554f6f6ff46d0b0529975",
+                "small": "https://ksr-ugc.imgix.net/assets/007/035/577/3d06d45b0e6017b3cfc577c42ef467fd_original.jpg?w=160&h=160&fit=crop&v=1461429882&auto=format&q=92&s=4c070170e428246eebf77fc93724114a",
+                "medium": "https://ksr-ugc.imgix.net/assets/007/035/577/3d06d45b0e6017b3cfc577c42ef467fd_original.jpg?w=160&h=160&fit=crop&v=1461429882&auto=format&q=92&s=4c070170e428246eebf77fc93724114a"
+            },
+            "urls": {
+                "web": {
+                    "user": "https://www.kickstarter.com/profile/1316923237"
+                },
+                "api": {
+                    "user": "https://api.kickstarter.com/v1/users/1316923237?signature=1495643580.bf4100630cfb9540865bcb3d6abfb57de6c316d9"
+                }
+            }
+        },
+        "location": {
+            "id": 2379574,
+            "name": "Chicago",
+            "slug": "chicago-il",
+            "short_name": "Chicago, IL",
+            "displayable_name": "Chicago, IL",
+            "country": "US",
+            "state": "IL",
+            "type": "Town",
+            "is_root": false,
+            "urls": {
+                "web": {
+                    "discover": "https://www.kickstarter.com/discover/places/chicago-il",
+                    "location": "https://www.kickstarter.com/locations/chicago-il"
+                },
+                "api": {
+                    "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1495611185.29d38e9a33b9a4c4278380bee949547a9b00b2a2&woe_id=2379574"
+                }
+            }
+        },
+        "category": {
+            "id": 50,
+            "name": "Poetry",
+            "slug": "publishing/poetry",
+            "position": 11,
+            "parent_id": 18,
+            "color": 14867664,
+            "urls": {
+                "web": {
+                    "discover": "http://www.kickstarter.com/discover/categories/publishing/poetry"
+                }
+            }
+        },
+        "profile": {
+            "id": 383802,
+            "project_id": 383802,
+            "state": "inactive",
+            "state_changed_at": 1425915821,
+            "name": null,
+            "blurb": null,
+            "background_color": null,
+            "text_color": null,
+            "link_background_color": null,
+            "link_text_color": null,
+            "link_text": null,
+            "link_url": null,
+            "show_feature_image": false,
+            "background_image_opacity": 0.8,
+            "should_show_feature_image_section": true,
+            "feature_image_attributes": {
+                "image_urls": {
+                    "default": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=1552&h=873&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=0607a1da7b50b6ccb7262eb90a3b7825",
+                    "baseball_card": "https://ksr-ugc.imgix.net/assets/011/443/478/d7fdeafe50f22b2aa19a6f4f01a50757_original.jpeg?w=1552&h=873&fit=fill&bg=000000&v=1463682811&auto=format&q=92&s=0607a1da7b50b6ccb7262eb90a3b7825"
+                }
+            }
+        },
+        "spotlight": false,
+        "urls": {
+            "web": {
+                "project": "https://www.kickstarter.com/projects/1316923237/publish-my-book-i-hope-you-read-this-someday?ref=discovery",
+                "rewards": "https://www.kickstarter.com/projects/1316923237/publish-my-book-i-hope-you-read-this-someday/rewards"
+            }
+        }
+    }],
+    "total_hits": 1,
+    "seed": 2492595,
+    "search_url": "/discover/advanced?term=publish-my-book-i-hope-you-read-this-someday",
+    "has_more": false
+}

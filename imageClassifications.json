@@ -1,0 +1,44 @@
+{
+    "images_processed": 1,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "name": "default",
+                    "classifier_id": "default",
+                    "classes": [
+                        {
+                            "score": 0.803,
+                            "type_hierarchy": "/person/weatherman",
+                            "class": "weatherman"
+                        },
+                        {
+                            "score": 0.926,
+                            "class": "person"
+                        },
+                        {
+                            "score": 0.635,
+                            "type_hierarchy": "/person/television reporter",
+                            "class": "television reporter"
+                        },
+                        {
+                            "score": 0.53,
+                            "type_hierarchy": "/person/newsreader",
+                            "class": "newsreader"
+                        },
+                        {
+                            "score": 0.809,
+                            "class": "pink color"
+                        },
+                        {
+                            "score": 0.544,
+                            "class": "lemon yellow color"
+                        }
+                    ]
+                }
+            ],
+            "image": "videos/bring-reading-rainbow-back-for-every-child-everywh/frames/bring-reading-rainbow-back-for-every-child-everywh-1-base0.jpg"
+        }
+    ],
+    "custom_classes": 0
+}

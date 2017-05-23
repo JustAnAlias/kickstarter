@@ -1,0 +1,120 @@
+{
+    "projects": [{
+        "id": 24382684,
+        "photo": {
+            "key": "assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png",
+            "full": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=560&h=315&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=cdcc9959a7e6e237ae695e5842888dd8",
+            "ed": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=338&h=190&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=3c1f61183bc886fcb16c27e6c254f824",
+            "med": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=266&h=150&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=70dc90e6a2ea86bfd82f5172bb5cdc5f",
+            "little": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=200&h=112&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=49d5ecfd52f1ecc86d68a7e8296273d9",
+            "small": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=160&h=90&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=59f826e256261edf46db13e903beabf9",
+            "thumb": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=40&h=22&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=8de31cd2d9dcde6d00459678d7603d7c",
+            "1024x576": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=1024&h=576&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=57f480dc4aa921fddcb01aba28dd9b8e",
+            "1536x864": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=1536&h=864&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=cdc49141ba38f43ff69b3234c413f727"
+        },
+        "name": "The Writings of The Moon: A New Beginning Collection",
+        "blurb": "A collection of writing from the 14 year old up to now. My writings through the ages. Various styles of poetry and other short writings",
+        "goal": 500.0,
+        "pledged": 42.0,
+        "state": "failed",
+        "slug": "the-writings-of-the-moon-a-new-beginning-collectio",
+        "disable_communication": false,
+        "country": "GB",
+        "currency": "GBP",
+        "currency_symbol": "£",
+        "currency_trailing_code": false,
+        "deadline": 1438383540,
+        "state_changed_at": 1438383540,
+        "created_at": 1435199783,
+        "launched_at": 1435723467,
+        "staff_pick": false,
+        "backers_count": 4,
+        "static_usd_rate": 1.57288349,
+        "usd_pledged": "66.06110658",
+        "creator": {
+            "id": 1954394992,
+            "name": "The Writings of The Moon",
+            "is_registered": true,
+            "avatar": {
+                "thumb": "https://ksr-ugc.imgix.net/assets/010/058/457/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=40&h=40&fit=crop&v=1461664740&auto=format&q=92&s=1c8d21e7f33bd10af6b56f93d5c2b583",
+                "small": "https://ksr-ugc.imgix.net/assets/010/058/457/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=160&h=160&fit=crop&v=1461664740&auto=format&q=92&s=73a9f02968ccdc848425aaf142fd13f8",
+                "medium": "https://ksr-ugc.imgix.net/assets/010/058/457/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=160&h=160&fit=crop&v=1461664740&auto=format&q=92&s=73a9f02968ccdc848425aaf142fd13f8"
+            },
+            "urls": {
+                "web": {
+                    "user": "https://www.kickstarter.com/profile/1954394992"
+                },
+                "api": {
+                    "user": "https://api.kickstarter.com/v1/users/1954394992?signature=1495643885.5555e549c821a5c7f7b9babf0eb878fa4d5b2b6c"
+                }
+            }
+        },
+        "location": {
+            "id": 19344,
+            "name": "Edinburgh",
+            "slug": "edinburgh-gb",
+            "short_name": "Edinburgh, UK",
+            "displayable_name": "Edinburgh, UK",
+            "country": "GB",
+            "state": "Scotland",
+            "type": "Town",
+            "is_root": false,
+            "urls": {
+                "web": {
+                    "discover": "https://www.kickstarter.com/discover/places/edinburgh-gb",
+                    "location": "https://www.kickstarter.com/locations/edinburgh-gb"
+                },
+                "api": {
+                    "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1495611192.5bdb67ea7baba73d95329917ddee6910b1869cea&woe_id=19344"
+                }
+            }
+        },
+        "category": {
+            "id": 50,
+            "name": "Poetry",
+            "slug": "publishing/poetry",
+            "position": 11,
+            "parent_id": 18,
+            "color": 14867664,
+            "urls": {
+                "web": {
+                    "discover": "http://www.kickstarter.com/discover/categories/publishing/poetry"
+                }
+            }
+        },
+        "profile": {
+            "id": 1979920,
+            "project_id": 1979920,
+            "state": "inactive",
+            "state_changed_at": 1435199783,
+            "name": null,
+            "blurb": null,
+            "background_color": null,
+            "text_color": null,
+            "link_background_color": null,
+            "link_text_color": null,
+            "link_text": null,
+            "link_url": null,
+            "show_feature_image": false,
+            "background_image_opacity": 0.8,
+            "should_show_feature_image_section": true,
+            "feature_image_attributes": {
+                "image_urls": {
+                    "default": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=1552&h=873&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=462bdc365da9a4035bfdf12326af0265",
+                    "baseball_card": "https://ksr-ugc.imgix.net/assets/012/178/521/cb3d6ac3ab51ecb1cb46dab90633ef15_original.png?w=1552&h=873&fit=fill&bg=000000&v=1463739673&auto=format&q=92&s=462bdc365da9a4035bfdf12326af0265"
+                }
+            }
+        },
+        "spotlight": false,
+        "urls": {
+            "web": {
+                "project": "https://www.kickstarter.com/projects/1954394992/the-writings-of-the-moon-a-new-beginning-collectio?ref=discovery",
+                "rewards": "https://www.kickstarter.com/projects/1954394992/the-writings-of-the-moon-a-new-beginning-collectio/rewards"
+            }
+        }
+    }],
+    "total_hits": 1,
+    "seed": 2492595,
+    "search_url": "/discover/advanced?term=the-writings-of-the-moon-a-new-beginning-collection",
+    "has_more": false
+}

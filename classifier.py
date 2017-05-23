@@ -14,4 +14,4 @@ def classifyFromPath(path):
 
 
 with open('imageClassifications.json','w') as fp:
-    json.dump(classifyFromPath("images.zip"), fp, indent=4)
+    json.dump(classifyFromPath("videos/bring-reading-rainbow-back-for-every-child-everywh/frames/bring-reading-rainbow-back-for-every-child-everywh-1-base0.jpg"), fp, indent=4)
