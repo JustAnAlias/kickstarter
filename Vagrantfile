@@ -89,6 +89,10 @@ Vagrant.configure("2") do |config|
     sudo apt-get -y install python3 python3-pip python3.4-dev
 
     sudo apt-get -y install python3-matplotlib
+    sudo apt-get install build-essential cmake
+    sudo apt-get install libgtk-3-dev
+    sudo apt-get install libboost-all-dev
+
     sudo pip3 install virtualenvwrapper
     sudo pip3 install suplemon
 
@@ -127,6 +131,10 @@ Vagrant.configure("2") do |config|
     pip install watson-developer-cloud
     pip install beautifulsoup4
     pip install tqdm
+    pip install scipy
+    pip install scikit-image
+    pip install dlib
+
 
     # This is necessary to get matplotlib support from system-wide
     # Debian package
