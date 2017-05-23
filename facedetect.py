@@ -57,18 +57,19 @@ def run(folder, file_name):
     nested = cv2.CascadeClassifier(nested_fn)
 
     # cam = create_capture(video_src, fallback='synth:bg=../data/lena.jpg:noise=0.05')
+
     cam = cv2.VideoCapture(video_src)
     image_count = 0
     frame_count = 0
     while True:
         if frame_count % 500 == 0:
             print('faces found: ', image_count)
+            print(int(cam.get(cv2.CAP_PROP_POS_FRAMES)), ": frames read" )
         ret, img = cam.read()
         if not ret:
             break
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         gray = cv2.equalizeHist(gray)
-
         t = clock()
         rects = detect(gray, cascade)
         vis = img.copy()
@@ -78,11 +79,15 @@ def run(folder, file_name):
                 roi = gray[y1:y2, x1:x2]
                 vis_roi = vis[y1:y2, x1:x2]
                 subrects = detect(roi.copy(), nested)
+                #If there is eyes on the picture
                 if len(subrects)>0:
-                    save_file_to = os.path.join(images_folder, "{0}{1}.jpg".format(file_name[:-4], image_count))
+                    #for every 20 frame it should save a picture.
+                    if int(cam.get(cv2.CAP_PROP_POS_FRAMES)) % 20 == 0:
+                        save_file_to = os.path.join(images_folder, "{0}{1}.jpg".format(file_name[:-4], image_count))
                     # print('saving file to: ', save_file_to)
-                    cv2.imwrite(save_file_to, img)
-                    image_count += 1
+                        cv2.imwrite(save_file_to, img)
+                        image_count += 1
+
                 # draw_rects(vis_roi, subrects, (255, 0, 0))
         dt = clock() - t
         frame_count += 1
