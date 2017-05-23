@@ -69,7 +69,7 @@ def run(folder, file_name):
     frame_count = 0
     while True:
         frame_count += 1
-        if frame_count % 100 == 1:
+        if frame_count % 1000 == 1:
             print('frames processed: ', frame_count-1)
 
         ret, img = cam.read()
