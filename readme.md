@@ -1,1 +1,1 @@
-![alt tag](https://github.com/justanalias/pictures/kickstarter-logo.png)
+![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/kickstarter-logo.png)
