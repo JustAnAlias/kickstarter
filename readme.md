@@ -35,18 +35,12 @@ We use this script to fast and effectively collect data of the pictures without 
 ### How to run:
 
 ** Windows:
-
 Install git: https://git-scm.com/downloads
 - git clone https://github.com/JustAnAlias/kickstarter
-
 - ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/gitclone.png)
-
 - open cmd and change directory to the kickstarter folder
-
 - ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/cd.png)
-
 - vagrant up
-
 - ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/vagrantUp.png)
 
 
