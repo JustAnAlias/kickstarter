@@ -69,15 +69,15 @@ def run(folder, file_name):
     frame_count = 0
     while True:
         frame_count += 1
-        if frame_count % 100 == 1:
+        if frame_count % 1000 == 1:
             print('frames processed: ', frame_count-1)
-
         ret, img = cam.read()
+        if not ret:
+            break
         if not int(cam.get(cv2.CAP_PROP_POS_FRAMES)) % 15 == 0:
             continue
 
-        if not ret:
-            break
+
         # Ask the detector to find the bounding boxes of each face. The 1 in the
         # second argument indicates that we should upsample the image 1 time. This
         # will make everything bigger and allow us to detect more faces.
@@ -114,6 +114,8 @@ def run(folder, file_name):
 
     print("{0} images made out of {1} frames".format(image_count, frame_count))
     cv2.destroyAllWindows()
+
+
 if __name__ == '__main__':
     import sys, getopt, json
     print(__doc__)
@@ -121,6 +123,10 @@ if __name__ == '__main__':
     with open("data.json", "r") as f:
         startdata = json.load(f)
     for k in startdata.keys():
+
+        fo = os.path.join("videos", k)
+        fi = "{0}{1}".format(k, "-1-base.mp4")
+        run(fo, fi)
         p = "videos/"+k
         f = k+"-1-base.mp4"
         print(p)

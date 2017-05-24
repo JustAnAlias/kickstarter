@@ -1,457 +1,119 @@
 {
-    "projects": [{
-        "id": 1710223684,
-        "photo": {
-            "key": "assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg",
-            "full": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=560&h=315&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=73f80fa445cf09280722a15f857fe1cc",
-            "ed": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=338&h=190&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=31e405fe96c8c0627790ed1792d5dbd2",
-            "med": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=266&h=150&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=7d29d2843abc24dfd917f800b391192d",
-            "little": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=200&h=112&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=dc609e98350270071084ffd53056af9f",
-            "small": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=160&h=90&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=cb6ed8584fa32e15c2d453cdb9bfa354",
-            "thumb": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=40&h=22&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=449377fd6c9cdc408fa679b90a6c2fe5",
-            "1024x576": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=1024&h=576&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=5232a43dbc094c8f65bf00859913e26b",
-            "1536x864": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=1536&h=864&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=90ce5553f27fc8e856245efaffd7c8eb"
-        },
-        "name": "Discover Shape: A Workshop",
-        "blurb": "A community workshop for 13-16yr olds; printing & poems! I'm completing a Gold Arts Award, this is the leadership module, Thank You x",
-        "goal": 60.0,
-        "pledged": 85.0,
-        "state": "successful",
-        "slug": "discover-shape-a-workshop",
-        "disable_communication": false,
-        "country": "GB",
-        "currency": "GBP",
-        "currency_symbol": "£",
-        "currency_trailing_code": false,
-        "deadline": 1428687722,
-        "state_changed_at": 1428687724,
-        "created_at": 1423477221,
-        "launched_at": 1423507322,
-        "staff_pick": false,
-        "backers_count": 11,
-        "static_usd_rate": 1.524137,
-        "usd_pledged": "129.551645",
-        "creator": {
-            "id": 697712169,
-            "name": "Amy Kibler",
-            "is_registered": true,
-            "avatar": {
-                "thumb": "https://ksr-ugc.imgix.net/assets/009/550/348/9aaf042fcf85e533c5424f24c333f045_original.jpg?w=40&h=40&fit=crop&v=1461602618&auto=format&q=92&s=96c39c6a64c17f9637723b7581aca5bd",
-                "small": "https://ksr-ugc.imgix.net/assets/009/550/348/9aaf042fcf85e533c5424f24c333f045_original.jpg?w=160&h=160&fit=crop&v=1461602618&auto=format&q=92&s=237bbd38a4d78865845a798dde085cbb",
-                "medium": "https://ksr-ugc.imgix.net/assets/009/550/348/9aaf042fcf85e533c5424f24c333f045_original.jpg?w=160&h=160&fit=crop&v=1461602618&auto=format&q=92&s=237bbd38a4d78865845a798dde085cbb"
-            },
-            "urls": {
-                "web": {
-                    "user": "https://www.kickstarter.com/profile/697712169"
-                },
-                "api": {
-                    "user": "https://api.kickstarter.com/v1/users/697712169?signature=1495643378.b718deb52b4d7de96fc2bd4530780b93fe091293"
-                }
-            }
-        },
-        "location": {
-            "id": 35356,
-            "name": "Southampton",
-            "slug": "southampton-gb",
-            "short_name": "Southampton, UK",
-            "displayable_name": "Southampton, UK",
-            "country": "GB",
-            "state": "England",
-            "type": "Town",
-            "is_root": false,
-            "urls": {
-                "web": {
-                    "discover": "https://www.kickstarter.com/discover/places/southampton-gb",
-                    "location": "https://www.kickstarter.com/locations/southampton-gb"
-                },
-                "api": {
-                    "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1495611191.33075e5fa2549240678a8c1b63ba3ad5c0551741&woe_id=35356"
-                }
-            }
-        },
-        "category": {
-            "id": 53,
-            "name": "Public Art",
-            "slug": "art/public art",
-            "position": 9,
-            "parent_id": 1,
-            "color": 16760235,
-            "urls": {
-                "web": {
-                    "discover": "http://www.kickstarter.com/discover/categories/art/public%20art"
-                }
-            }
-        },
-        "profile": {
-            "id": 1693456,
-            "project_id": 1693456,
-            "state": "inactive",
-            "state_changed_at": 1425915893,
-            "name": null,
-            "blurb": null,
-            "background_color": null,
-            "text_color": null,
-            "link_background_color": null,
-            "link_text_color": null,
-            "link_text": null,
-            "link_url": null,
-            "show_feature_image": false,
-            "background_image_opacity": 0.8,
-            "should_show_feature_image_section": true,
-            "feature_image_attributes": {
-                "image_urls": {
-                    "default": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=1552&h=873&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=eb7359c966e826c55e2638155f411f27",
-                    "baseball_card": "https://ksr-ugc.imgix.net/assets/012/031/008/c47c415207e9b7b74ff24ef5e67afdfb_original.jpg?w=1552&h=873&fit=fill&bg=000000&v=1463725609&auto=format&q=92&s=eb7359c966e826c55e2638155f411f27"
-                }
-            }
-        },
-        "spotlight": true,
-        "urls": {
-            "web": {
-                "project": "https://www.kickstarter.com/projects/697712169/discover-shape-a-workshop?ref=discovery",
-                "rewards": "https://www.kickstarter.com/projects/697712169/discover-shape-a-workshop/rewards"
-            }
-        }
-    }, {
-        "id": 1816129984,
-        "photo": {
-            "key": "assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG",
-            "full": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=560&h=315&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=4370842d68d62d10e205baf6a17a41ad",
-            "ed": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=338&h=190&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=c598a679aac62facc22e592861439c39",
-            "med": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=266&h=150&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=ca3568e0a0bfbaf0dc4a00d91d3af3ec",
-            "little": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=200&h=112&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=8113e5e8faabe0e14510c5dc4314470f",
-            "small": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=160&h=90&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=52f2c251332d4e8b3efb8a3e1fd1b12f",
-            "thumb": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=40&h=22&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=5319a410b05546cd899ebba70bf2f1f3",
-            "1024x576": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=1024&h=576&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=166d0dadc41f222491b6bc11b39bf95f",
-            "1536x864": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=1536&h=864&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=292d43b379815a6951510b5d7c332bbe"
-        },
-        "name": "Ripples That You Make - A Personalized Poetry Ebook for Kids",
-        "blurb": "\"Ripples That You Make\" is a personalized poetry ebook for your children.Up to 2 childrens names will appear in this series of poems.",
-        "goal": 50.0,
-        "pledged": 50.0,
-        "state": "successful",
-        "slug": "ripples-that-you-make-a-personalized-poetry-ebook",
-        "disable_communication": false,
-        "country": "US",
-        "currency": "USD",
-        "currency_symbol": "$",
-        "currency_trailing_code": true,
-        "deadline": 1355592467,
-        "state_changed_at": 1355592467,
-        "created_at": 1353873858,
-        "launched_at": 1354296467,
-        "staff_pick": false,
-        "backers_count": 2,
-        "static_usd_rate": 1.0,
-        "usd_pledged": "50.0",
-        "creator": {
-            "id": 1241426552,
-            "name": "John G. Lamb",
-            "is_registered": true,
-            "avatar": {
-                "thumb": "https://ksr-ugc.imgix.net/assets/006/972/677/597dea37e2a923e96a441b87826072c5_original.JPG?w=40&h=40&fit=crop&v=1461425056&auto=format&q=92&s=d89b064e6b9cf6d6f68c5ce9d5711077",
-                "small": "https://ksr-ugc.imgix.net/assets/006/972/677/597dea37e2a923e96a441b87826072c5_original.JPG?w=160&h=160&fit=crop&v=1461425056&auto=format&q=92&s=dd40b95e10777dd89e23c9b2f718ad2b",
-                "medium": "https://ksr-ugc.imgix.net/assets/006/972/677/597dea37e2a923e96a441b87826072c5_original.JPG?w=160&h=160&fit=crop&v=1461425056&auto=format&q=92&s=dd40b95e10777dd89e23c9b2f718ad2b"
-            },
-            "urls": {
-                "web": {
-                    "user": "https://www.kickstarter.com/profile/1241426552"
-                },
-                "api": {
-                    "user": "https://api.kickstarter.com/v1/users/1241426552?signature=1495643378.d511f10118985c3d56ced4598f53a626b079a98f"
-                }
-            }
-        },
-        "location": {
-            "id": 2483553,
-            "name": "Rockville",
-            "slug": "rockville-md",
-            "short_name": "Rockville, MD",
-            "displayable_name": "Rockville, MD",
-            "country": "US",
-            "state": "MD",
-            "type": "Town",
-            "is_root": false,
-            "urls": {
-                "web": {
-                    "discover": "https://www.kickstarter.com/discover/places/rockville-md",
-                    "location": "https://www.kickstarter.com/locations/rockville-md"
-                },
-                "api": {
-                    "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1495611215.f5dd18c04a112c968d18e3d809355941c466ca0d&woe_id=2483553"
-                }
-            }
-        },
-        "category": {
-            "id": 50,
-            "name": "Poetry",
-            "slug": "publishing/poetry",
-            "position": 11,
-            "parent_id": 18,
-            "color": 14867664,
-            "urls": {
-                "web": {
-                    "discover": "http://www.kickstarter.com/discover/categories/publishing/poetry"
-                }
-            }
-        },
-        "profile": {
-            "id": 408539,
-            "project_id": 408539,
-            "state": "inactive",
-            "state_changed_at": 1425915822,
-            "name": null,
-            "blurb": null,
-            "background_color": null,
-            "text_color": null,
-            "link_background_color": null,
-            "link_text_color": null,
-            "link_text": null,
-            "link_url": null,
-            "show_feature_image": false,
-            "background_image_opacity": 0.8,
-            "should_show_feature_image_section": true,
-            "feature_image_attributes": {
-                "image_urls": {
-                    "default": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=1552&h=873&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=2e06fe967c880731a6ba7c1986af351c",
-                    "baseball_card": "https://ksr-ugc.imgix.net/assets/011/454/072/518698dbfc599a2ed32892a2db66db63_original.JPG?w=1552&h=873&fit=fill&bg=000000&v=1463682945&auto=format&q=92&s=2e06fe967c880731a6ba7c1986af351c"
-                }
-            }
-        },
-        "spotlight": true,
-        "urls": {
-            "web": {
-                "project": "https://www.kickstarter.com/projects/1241426552/ripples-that-you-make-a-personalized-poetry-ebook?ref=discovery",
-                "rewards": "https://www.kickstarter.com/projects/1241426552/ripples-that-you-make-a-personalized-poetry-ebook/rewards"
-            }
-        }
-    }, {
-        "id": 14948596,
-        "photo": {
-            "key": "assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif",
-            "full": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=560&h=315&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=9bd489266a8a573e79816c0f05df2c33",
-            "ed": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=338&h=190&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=ce2283683a65909da286b11650eb5e00",
-            "med": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=266&h=150&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=6258bf98d433debe8d06511d38ba92d9",
-            "little": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=200&h=112&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=58eca129c442d626d3c3967509b3ba31",
-            "small": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=160&h=90&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=684d18425b4d7c8284038221c387d000",
-            "thumb": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=40&h=22&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=6cbac7229245f3a5d40735df09a059c5",
-            "1024x576": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1024&h=576&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=35b32caeae5cb0444cb4019c37aed8c7",
-            "1536x864": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1536&h=864&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=6530e7e5a37f7ab6c19867cbba0f49cd"
-        },
-        "name": "THIS POEM IS FOR YOU",
-        "blurb": "Poetry/video/art project celebrating awesome people. A poetry book that isn't about the writer, it's all about the readers!",
-        "goal": 3300.0,
-        "pledged": 120.0,
-        "state": "failed",
-        "slug": "this-poem-is-for-you",
-        "disable_communication": false,
-        "country": "US",
-        "currency": "USD",
-        "currency_symbol": "$",
-        "currency_trailing_code": true,
-        "deadline": 1355118900,
-        "state_changed_at": 1355118901,
-        "created_at": 1334989265,
-        "launched_at": 1351659300,
-        "staff_pick": false,
-        "backers_count": 4,
-        "static_usd_rate": 1.0,
-        "usd_pledged": "120.0",
-        "creator": {
-            "id": 1727773153,
-            "name": "Jesse James",
-            "is_registered": true,
-            "avatar": {
-                "thumb": "https://ksr-ugc.imgix.net/assets/006/539/761/d40a4eecfa571819bf91ca9ac60e5b31_original.gif?w=40&h=40&fit=crop&v=1461394721&auto=format&frame=1&q=92&s=5594fd56300244f1d17fe6fa91e610e0",
-                "small": "https://ksr-ugc.imgix.net/assets/006/539/761/d40a4eecfa571819bf91ca9ac60e5b31_original.gif?w=160&h=160&fit=crop&v=1461394721&auto=format&frame=1&q=92&s=fc555fbfab11493147ac73f41141e006",
-                "medium": "https://ksr-ugc.imgix.net/assets/006/539/761/d40a4eecfa571819bf91ca9ac60e5b31_original.gif?w=160&h=160&fit=crop&v=1461394721&auto=format&frame=1&q=92&s=fc555fbfab11493147ac73f41141e006"
-            },
-            "urls": {
-                "web": {
-                    "user": "https://www.kickstarter.com/profile/1727773153"
-                },
-                "api": {
-                    "user": "https://api.kickstarter.com/v1/users/1727773153?signature=1495643378.7bb0783fc8bb987094f81503cc5abf0ed7074707"
-                }
-            }
-        },
-        "location": {
-            "id": 2448929,
-            "name": "Medford",
-            "slug": "medford-or",
-            "short_name": "Medford, OR",
-            "displayable_name": "Medford, OR",
-            "country": "US",
-            "state": "OR",
-            "type": "Town",
-            "is_root": false,
-            "urls": {
-                "web": {
-                    "discover": "https://www.kickstarter.com/discover/places/medford-or",
-                    "location": "https://www.kickstarter.com/locations/medford-or"
-                },
-                "api": {
-                    "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1495611297.ddbf763189e2fc1b828da2d90dfa6489a605b0a9&woe_id=2448929"
-                }
-            }
-        },
-        "category": {
-            "id": 50,
-            "name": "Poetry",
-            "slug": "publishing/poetry",
-            "position": 11,
-            "parent_id": 18,
-            "color": 14867664,
-            "urls": {
-                "web": {
-                    "discover": "http://www.kickstarter.com/discover/categories/publishing/poetry"
-                }
-            }
-        },
-        "profile": {
-            "id": 152138,
-            "project_id": 152138,
-            "state": "inactive",
-            "state_changed_at": 1425915808,
-            "name": null,
-            "blurb": null,
-            "background_color": null,
-            "text_color": null,
-            "link_background_color": null,
-            "link_text_color": null,
-            "link_text": null,
-            "link_url": null,
-            "show_feature_image": false,
-            "background_image_opacity": 0.8,
-            "should_show_feature_image_section": true,
-            "feature_image_attributes": {
-                "image_urls": {
-                    "default": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1552&h=873&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=7b4badbde1ca5556758e773904109698",
-                    "baseball_card": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1552&h=873&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=7b4badbde1ca5556758e773904109698"
-                }
-            }
-        },
-        "spotlight": false,
-        "urls": {
-            "web": {
-                "project": "https://www.kickstarter.com/projects/1727773153/this-poem-is-for-you?ref=discovery",
-                "rewards": "https://www.kickstarter.com/projects/1727773153/this-poem-is-for-you/rewards"
-            }
-        }
-    }, {
-        "id": 1006098372,
-        "photo": {
-            "key": "assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png",
-            "full": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=560&h=315&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=c63ee2024cd2e6a4468c20ebb893067c",
-            "ed": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=338&h=190&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=9986a894564f8097bddcc7a90cb51d58",
-            "med": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=266&h=150&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=7e81c8980df897d9f1eb71d24cc3398a",
-            "little": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=200&h=112&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=96343059760fabcc9b0965a7fcea30b6",
-            "small": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=160&h=90&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=8fee66056613028928ca8908e7a8b1f2",
-            "thumb": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=40&h=22&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=de7b3ca4f660f87f0decd3dc9170f423",
-            "1024x576": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=1024&h=576&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=a5d09506636c9baec716f84b9a9d6c13",
-            "1536x864": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=1536&h=864&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=5952ba314cad05f8a96eb03729d6c28e"
-        },
-        "name": "Love Letters to God (Canceled)",
-        "blurb": "This book is full of poems expressing my love & gratitude for God. It's a journey through my life & I'm hoping you will be a part of it",
-        "goal": 6719.0,
-        "pledged": 0.0,
-        "state": "canceled",
-        "slug": "love-letters-to-god",
-        "disable_communication": false,
-        "country": "US",
-        "currency": "USD",
-        "currency_symbol": "$",
-        "currency_trailing_code": true,
-        "deadline": 1450368000,
-        "state_changed_at": 1448734056,
-        "created_at": 1447165767,
-        "launched_at": 1447786425,
-        "staff_pick": false,
-        "backers_count": 0,
-        "static_usd_rate": 1.0,
-        "usd_pledged": "0.0",
-        "creator": {
-            "id": 188800638,
-            "name": "Shondelle Monika Newsom Booker",
-            "slug": "loveletters",
-            "is_registered": true,
-            "avatar": {
-                "thumb": "https://ksr-ugc.imgix.net/assets/010/534/166/cbdb0d43c740c62539a0a90eb29b195c_original.jpg?w=40&h=40&fit=crop&v=1461696136&auto=format&q=92&s=d08ffb52823f8208b0a46a9bf95636a4",
-                "small": "https://ksr-ugc.imgix.net/assets/010/534/166/cbdb0d43c740c62539a0a90eb29b195c_original.jpg?w=160&h=160&fit=crop&v=1461696136&auto=format&q=92&s=b814fda6c70d38793c03152489503729",
-                "medium": "https://ksr-ugc.imgix.net/assets/010/534/166/cbdb0d43c740c62539a0a90eb29b195c_original.jpg?w=160&h=160&fit=crop&v=1461696136&auto=format&q=92&s=b814fda6c70d38793c03152489503729"
-            },
-            "urls": {
-                "web": {
-                    "user": "https://www.kickstarter.com/profile/loveletters"
-                },
-                "api": {
-                    "user": "https://api.kickstarter.com/v1/users/188800638?signature=1495643378.1f05c77c24aa79173056a373d9e78a812dd0d712"
-                }
-            }
-        },
-        "location": {
-            "id": 2457170,
-            "name": "Nashville",
-            "slug": "nashville-tn",
-            "short_name": "Nashville, TN",
-            "displayable_name": "Nashville, TN",
-            "country": "US",
-            "state": "TN",
-            "type": "Town",
-            "is_root": false,
-            "urls": {
-                "web": {
-                    "discover": "https://www.kickstarter.com/discover/places/nashville-tn",
-                    "location": "https://www.kickstarter.com/locations/nashville-tn"
-                },
-                "api": {
-                    "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1495611187.620d81702e741707d8f3cdad8885e515783ffb8f&woe_id=2457170"
-                }
-            }
-        },
-        "category": {
-            "id": 18,
-            "name": "Publishing",
-            "slug": "publishing",
-            "position": 13,
-            "color": 14867664,
-            "urls": {
-                "web": {
-                    "discover": "http://www.kickstarter.com/discover/categories/publishing"
-                }
-            }
-        },
-        "profile": {
-            "id": 2221113,
-            "project_id": 2221113,
-            "state": "inactive",
-            "state_changed_at": 1447165767,
-            "name": null,
-            "blurb": null,
-            "background_color": null,
-            "text_color": null,
-            "link_background_color": null,
-            "link_text_color": null,
-            "link_text": null,
-            "link_url": null,
-            "show_feature_image": false,
-            "background_image_opacity": 0.8,
-            "should_show_feature_image_section": true,
-            "feature_image_attributes": {
-                "image_urls": {
-                    "default": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=1552&h=873&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=1f5bc580c652b9d3a3df92138c756453",
-                    "baseball_card": "https://ksr-ugc.imgix.net/assets/012/303/695/a950bed8da295145f28cc04a033cb288_original.png?w=1552&h=873&fit=fill&bg=000000&v=1463754490&auto=format&q=92&s=1f5bc580c652b9d3a3df92138c756453"
-                }
-            }
-        },
-        "spotlight": false,
-        "urls": {
-            "web": {
-                "project": "https://www.kickstarter.com/projects/loveletters/love-letters-to-god?ref=discovery",
-                "rewards": "https://www.kickstarter.com/projects/loveletters/love-letters-to-god/rewards"
-            }
-        }
-    }],
+    "projects": [
+      {
+          "id": 14948596,
+          "photo": {
+              "key": "assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif",
+              "full": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=560&h=315&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=9bd489266a8a573e79816c0f05df2c33",
+              "ed": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=338&h=190&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=ce2283683a65909da286b11650eb5e00",
+              "med": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=266&h=150&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=6258bf98d433debe8d06511d38ba92d9",
+              "little": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=200&h=112&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=58eca129c442d626d3c3967509b3ba31",
+              "small": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=160&h=90&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=684d18425b4d7c8284038221c387d000",
+              "thumb": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=40&h=22&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=6cbac7229245f3a5d40735df09a059c5",
+              "1024x576": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1024&h=576&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=35b32caeae5cb0444cb4019c37aed8c7",
+              "1536x864": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1536&h=864&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=6530e7e5a37f7ab6c19867cbba0f49cd"
+          },
+          "name": "THIS POEM IS FOR YOU",
+          "blurb": "Poetry/video/art project celebrating awesome people. A poetry book that isn't about the writer, it's all about the readers!",
+          "goal": 3300.0,
+          "pledged": 120.0,
+          "state": "failed",
+          "slug": "this-poem-is-for-you",
+          "disable_communication": false,
+          "country": "US",
+          "currency": "USD",
+          "currency_symbol": "$",
+          "currency_trailing_code": true,
+          "deadline": 1355118900,
+          "state_changed_at": 1355118901,
+          "created_at": 1334989265,
+          "launched_at": 1351659300,
+          "staff_pick": false,
+          "backers_count": 4,
+          "static_usd_rate": 1.0,
+          "usd_pledged": "120.0",
+          "creator": {
+              "id": 1727773153,
+              "name": "Jesse James",
+              "is_registered": true,
+              "avatar": {
+                  "thumb": "https://ksr-ugc.imgix.net/assets/006/539/761/d40a4eecfa571819bf91ca9ac60e5b31_original.gif?w=40&h=40&fit=crop&v=1461394721&auto=format&frame=1&q=92&s=5594fd56300244f1d17fe6fa91e610e0",
+                  "small": "https://ksr-ugc.imgix.net/assets/006/539/761/d40a4eecfa571819bf91ca9ac60e5b31_original.gif?w=160&h=160&fit=crop&v=1461394721&auto=format&frame=1&q=92&s=fc555fbfab11493147ac73f41141e006",
+                  "medium": "https://ksr-ugc.imgix.net/assets/006/539/761/d40a4eecfa571819bf91ca9ac60e5b31_original.gif?w=160&h=160&fit=crop&v=1461394721&auto=format&frame=1&q=92&s=fc555fbfab11493147ac73f41141e006"
+              },
+              "urls": {
+                  "web": {
+                      "user": "https://www.kickstarter.com/profile/1727773153"
+                  },
+                  "api": {
+                      "user": "https://api.kickstarter.com/v1/users/1727773153?signature=1495643378.7bb0783fc8bb987094f81503cc5abf0ed7074707"
+                  }
+              }
+          },
+          "location": {
+              "id": 2448929,
+              "name": "Medford",
+              "slug": "medford-or",
+              "short_name": "Medford, OR",
+              "displayable_name": "Medford, OR",
+              "country": "US",
+              "state": "OR",
+              "type": "Town",
+              "is_root": false,
+              "urls": {
+                  "web": {
+                      "discover": "https://www.kickstarter.com/discover/places/medford-or",
+                      "location": "https://www.kickstarter.com/locations/medford-or"
+                  },
+                  "api": {
+                      "nearby_projects": "https://api.kickstarter.com/v1/discover?signature=1495611297.ddbf763189e2fc1b828da2d90dfa6489a605b0a9&woe_id=2448929"
+                  }
+              }
+          },
+          "category": {
+              "id": 50,
+              "name": "Poetry",
+              "slug": "publishing/poetry",
+              "position": 11,
+              "parent_id": 18,
+              "color": 14867664,
+              "urls": {
+                  "web": {
+                      "discover": "http://www.kickstarter.com/discover/categories/publishing/poetry"
+                  }
+              }
+          },
+          "profile": {
+              "id": 152138,
+              "project_id": 152138,
+              "state": "inactive",
+              "state_changed_at": 1425915808,
+              "name": null,
+              "blurb": null,
+              "background_color": null,
+              "text_color": null,
+              "link_background_color": null,
+              "link_text_color": null,
+              "link_text": null,
+              "link_url": null,
+              "show_feature_image": false,
+              "background_image_opacity": 0.8,
+              "should_show_feature_image_section": true,
+              "feature_image_attributes": {
+                  "image_urls": {
+                      "default": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1552&h=873&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=7b4badbde1ca5556758e773904109698",
+                      "baseball_card": "https://ksr-ugc.imgix.net/assets/011/350/345/5467c0fbe7dfc0f9ad30d18609b61ed5_original.gif?w=1552&h=873&fit=fill&bg=000000&v=1463681375&auto=format&frame=1&q=92&s=7b4badbde1ca5556758e773904109698"
+                  }
+              }
+          },
+          "spotlight": false,
+          "urls": {
+              "web": {
+                  "project": "https://www.kickstarter.com/projects/1727773153/this-poem-is-for-you?ref=discovery",
+                  "rewards": "https://www.kickstarter.com/projects/1727773153/this-poem-is-for-you/rewards"
+              }
+          }
+      }],
     "total_hits": 4,
     "seed": 2492594,
     "search_url": "/discover/advanced?term=this-poem-is-for-you",

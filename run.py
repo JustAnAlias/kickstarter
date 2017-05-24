@@ -1,12 +1,16 @@
-import subprocess
+import kickstarter
+import failedd
+from ks_video_downloader import VideoDownloader
 
 print("Executing Kickstarter.py")
-subprocess.call("kickstarter.py", shell=True)
-print("Finished")
+kickstarter.run()
+print("Getting failed projects as well from failedd")
+failedd.run()
 print("Executing ks_video_downloader.py")
-subprocess.call("ks_video_downloader.py", shell=True)
+downloader = VideoDownloader()
+downloader.run()
 print("Finished")
 print("Starting face detection with facedetect_2_proto.py")
-subprocess.call("facedetect_2_proto.py", shell=True)
+#facedetect_2_proto.run()
 print("Finished face detection")
 print("Starting Classification.py")

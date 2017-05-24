@@ -12,7 +12,7 @@ class VideoDownloader:
         # print(self.data)
 
     def run(self):
-        for k in tqdm(self.data.keys()):
+        for k in self.data.keys():
             vid_files = self.scrape_videos(self.data[k]['url'])
             self.data[k]['videos'] = vid_files
         self.save_data('data2.json', self.data)
@@ -54,18 +54,19 @@ class VideoDownloader:
         data = webget.download(url)
         soup = BeautifulSoup(data, 'html.parser')
         video_tags = soup.findAll('video')
+        video_counter = 0
         for tag in video_tags:
             video_urls = tag.findAll('source')
-            video_counter = 0
+            video_counter += 1
+            print("set video_counter to : {0}".format(video_counter))
             for video_url in video_urls:
                 if 'base.mp4' in video_url.get('src'):
-                    video_counter += 1
                     res = video_url.get('src')
+                    print("creating filname with number: {0}".format(video_counter))
                     file_name = self.create_file_name(url, video_counter)
                     full_path = os.path.join(savedir, file_name)
                     file_list.append(full_path)
-                    if video_counter >= 2:
-                        print('downloading file number {0} : {1} to {2}'.format(video_counter, res, full_path))
+                    print('downloading file number {0} : {1} to {2}'.format(video_counter, res, full_path))
                     if os.path.isfile(full_path):
                         # print('i already have that file')
                         continue
@@ -73,6 +74,6 @@ class VideoDownloader:
                         urllib.request.urlretrieve(res, full_path)
         return file_list
 
-if __name__ == '__main__':
-    shit = VideoDownloader()
-shit.run()
+# if __name__ == '__main__':
+#     shit = VideoDownloader()
+# shit.run()
