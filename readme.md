@@ -19,9 +19,35 @@ classifier.py will go through the subdirectories in "/video" and suck them in, a
 We use this script to fast and effectively collect data of the pictures without even looking at them, the data we collect can now be used for analysis.
 
 
+## Lets get started
+
+### Prerequisites
+1. git - 
+2. Virtualbox - https://www.virtualbox.org/wiki/Downloads
+3. Vagrant - https://www.vagrantup.com/downloads.html
+4. SSH-Client
+ - Windows - We recommend http://www.putty.org/
+ - ubuntu  - SSH is already installed in this awesome OS
+ - OSX     - Who knows, who cares :P
 
 
-## How to use it:
+
+### How to run:
+
+** Windows:
+
+Install git: https://git-scm.com/downloads
+git clone https://github.com/JustAnAlias/kickstarter
+![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/gitclone.png)
+open cmd and change directory to the kickstarter folder
+![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/cd.png)
+vagrant up
+![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/vagrantUp.png)
+
+
+
+
+
 vagrant up
 ssh into vm at 127.0.0.1:2222
 user: vagrant
