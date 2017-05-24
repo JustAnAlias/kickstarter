@@ -1,18 +1,15 @@
 import json
-import requests
-import datetime
-
-end_page = 2;
-urls= []
+import os
 wee={}
 
-print("Starting scraper")
+for directory, subdirectories, files in os.walk("failed"):
+    for file in files:
+        print("failed/"+file)
+        with open("failed/"+file) as data_file:
+            data = json.load(data_file)
 
-#scan through pages 1 to end_page for data, 20 results per page
-def run():
-        for page in range(1,end_page+1):
-                r = requests.get('https://www.kickstarter.com/discover/advanced.json?sort=most_funded&page=' + str(page))
-                data = r.json()
+#with open('failed/fail1.json') as data_file:
+#    data = json.load(data_file)
 
         for index in range(len(data["projects"])):
 
@@ -24,12 +21,10 @@ def run():
                 state = data["projects"][index]["state"]
                 goal = data["projects"][index]["goal"]
                 pledged = data["projects"][index]["pledged"]
-
         #Insert into Dictionary
                 wee[data["projects"][index]["slug"]] = {"id": id, "name": name, "url": url, "category": category, "state": state, "goal": goal, "pledged": pledged}
-#                wee[data["projects"][index]["slug"]] = {"id": id, "name": name, "url": url, "category": category}
 
 
-        with open('data.json', 'w') as fp:
-	        json.dump(wee, fp, indent=4)
-        print("Dumped data to data.json")
+with open('datafailed2.json', 'w') as fp:
+    json.dump(wee, fp, indent=4)
+print("Dumped data to data.json")
