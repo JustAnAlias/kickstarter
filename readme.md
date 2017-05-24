@@ -47,7 +47,7 @@ Install git: https://git-scm.com/downloads
 
 - vagrant up
 
-![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/vagrantUp.png)
+- ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/vagrantUp.png)
 
 
 
