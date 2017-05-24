@@ -1,44 +1,60 @@
 {
-    "images_processed": 1,
     "images": [
         {
+            "image": "videos/bring-reading-rainbow-back-for-every-child-everywh/frames/bring-reading-rainbow-back-for-every-child-everywh-1-base0.jpg",
             "classifiers": [
                 {
                     "name": "default",
                     "classifier_id": "default",
                     "classes": [
                         {
-                            "score": 0.803,
-                            "type_hierarchy": "/person/weatherman",
-                            "class": "weatherman"
+                            "class": "sofa",
+                            "score": 0.58,
+                            "type_hierarchy": "/furniture/seat/sofa"
                         },
                         {
-                            "score": 0.926,
-                            "class": "person"
+                            "class": "seat",
+                            "score": 0.678
                         },
                         {
-                            "score": 0.635,
-                            "type_hierarchy": "/person/television reporter",
-                            "class": "television reporter"
+                            "class": "furniture",
+                            "score": 0.747
                         },
                         {
-                            "score": 0.53,
-                            "type_hierarchy": "/person/newsreader",
-                            "class": "newsreader"
+                            "class": "window seat",
+                            "score": 0.564,
+                            "type_hierarchy": "/furniture/bench/window seat"
                         },
                         {
-                            "score": 0.809,
-                            "class": "pink color"
+                            "class": "bench",
+                            "score": 0.566
                         },
                         {
-                            "score": 0.544,
-                            "class": "lemon yellow color"
+                            "class": "couch",
+                            "score": 0.559,
+                            "type_hierarchy": "/furniture/bed/couch"
+                        },
+                        {
+                            "class": "bed",
+                            "score": 0.56
+                        },
+                        {
+                            "class": "covered couch",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "sage green color",
+                            "score": 0.829
+                        },
+                        {
+                            "class": "claret red color",
+                            "score": 0.656
                         }
                     ]
                 }
-            ],
-            "image": "videos/bring-reading-rainbow-back-for-every-child-everywh/frames/bring-reading-rainbow-back-for-every-child-everywh-1-base0.jpg"
+            ]
         }
     ],
+    "images_processed": 1,
     "custom_classes": 0
 }

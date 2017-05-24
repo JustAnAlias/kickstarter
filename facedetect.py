@@ -18,6 +18,10 @@ import os
 from video import create_capture
 from common import clock, draw_str
 
+def allVideos(root_dir):
+       for directory, subdirectories, files in os.walk(root_dir):
+                for file in files:
+                        run(directory, file)
 
 def detect(img, cascade):
     rects = cascade.detectMultiScale(img, scaleFactor=1.3, minNeighbors=4, minSize=(30, 30),
@@ -84,6 +88,8 @@ def run(folder, file_name):
                     #for every 20 frame it should save a picture.
                     if int(cam.get(cv2.CAP_PROP_POS_FRAMES)) % 20 == 0:
                         save_file_to = os.path.join(images_folder, "{0}{1}.jpg".format(file_name[:-4], image_count))
+                        print("Captured: ", (images_folder, "{0}{1}.jpg".format(file_name[:-4], image_count)))
+                        print("At: ", cam.get(cv2.CAP_PROP_POS_MEC))
                     # print('saving file to: ', save_file_to)
                         cv2.imwrite(save_file_to, img)
                         image_count += 1
@@ -102,4 +108,9 @@ def run(folder, file_name):
 if __name__ == '__main__':
     import sys, getopt
     print(__doc__)
+    allVideos('videos')
+    
     run("videos/bring-reading-rainbow-back-for-every-child-everywh", "bring-reading-rainbow-back-for-every-child-everywh-1-base.mp4")
+    run("videos/bring-reading-rainbow-back-for-every-child-everywh", "bring-reading-rainbow-back-for-every-child-everywh-1-base.mp4")
+    
+

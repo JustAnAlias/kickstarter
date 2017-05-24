@@ -69,7 +69,7 @@ def run(folder, file_name):
     frame_count = 0
     while True:
         frame_count += 1
-        if frame_count % 100 == 1:
+        if frame_count % 1000 == 1:
             print('frames processed: ', frame_count-1)
         ret, img = cam.read()
         if not ret:
@@ -123,7 +123,16 @@ if __name__ == '__main__':
     with open("data.json", "r") as f:
         startdata = json.load(f)
     for k in startdata.keys():
+<<<<<<< HEAD
         fo = os.path.join("videos", k)
         fi = "{0}{1}".format(k, "-1-base.mp4")
         run(fo, fi)
+=======
+        p = "videos/"+k
+        f = k+"-1-base.mp4"
+        print(p)
+        print(f)
+        run(p,f)
+
+>>>>>>> 86c6d7535694090af2435f7dd4292e4f82b4b4a8
     # run("videos/bring-reading-rainbow-back-for-every-child-everywh", "bring-reading-rainbow-back-for-every-child-everywh-1-base.mp4")
