@@ -1,9 +1,11 @@
 import kickstarter
+import failedd
 from ks_video_downloader import VideoDownloader
 
 print("Executing Kickstarter.py")
 kickstarter.run()
-print("Finished")
+print("Getting failed projects as well from failedd")
+failedd.run()
 print("Executing ks_video_downloader.py")
 downloader = VideoDownloader()
 downloader.run()

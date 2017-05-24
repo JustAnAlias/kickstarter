@@ -3,7 +3,6 @@ import requests
 import datetime
 
 end_page = 2;
-urls= []
 wee={}
 
 print("Starting scraper")
