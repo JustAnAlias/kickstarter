@@ -73,6 +73,6 @@ class VideoDownloader:
                         urllib.request.urlretrieve(res, full_path)
         return file_list
 
-if __name__ == '__main__':
-    shit = VideoDownloader()
-shit.run()
+# if __name__ == '__main__':
+#     shit = VideoDownloader()
+# shit.run()
