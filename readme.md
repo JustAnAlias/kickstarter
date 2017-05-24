@@ -1,6 +1,6 @@
 ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/kickstarter-logo.png)
 
-#How to use it:
+# How to use it:
 vagrant up
 ssh into vm at 127.0.0.1:2222
 user: vagrant
