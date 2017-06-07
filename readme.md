@@ -19,24 +19,59 @@ classifier.py will go through the subdirectories in "/video" and suck them in, a
 We use this script to fast and effectively collect data of the pictures without even looking at them, the data we collect can now be used for analysis.
 
 
+## Lets get started
+
+### Prerequisites
+1. git 
+ - windows - https://git-scm.com/downloads
+ - ubuntu -  sudo apt-get install git
+ - OSX     - Who knows, who cares :P
+2. Virtualbox 
+ - windows - https://www.virtualbox.org/wiki/Downloads
+ - ubuntu  - sudo apt-get install virtualbox
+ - OSX     - Who knows, who cares :P
+
+3. Vagrant 
+ - All OS - https://www.vagrantup.com/downloads.html
+
+4. SSH-Client
+ - Windows - We recommend http://www.putty.org/
+ - ubuntu  - SSH is already installed in this awesome OS
+ - OSX     - Who knows, who cares :P
 
 
-## How to use it:
-vagrant up
-ssh into vm at 127.0.0.1:2222
-user: vagrant
-pass: vagrant
 
-workon kickstarter
-cd /code
+### How to run:
 
-Run our run script with
-python run.py 
+#### Windows:
+- Install git: https://git-scm.com/downloads
+- git clone https://github.com/JustAnAlias/kickstarter
+- ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/gitclone.png)
+- open cmd and change directory to the kickstarter folder
+- ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/cd.png)
+- vagrant up
+- ![alt tag](https://github.com/JustAnAlias/kickstarter/blob/master/pictures/vagrantUp.png)
+- Wait approx. 30 minutes
+- Open putty and connect to IP:127.0.0.1 port:2222 
+- username: vagrant
+- password: vagrant
+- workon kickstarter
+- cd /code
+- python3 run.py
+
+
+####  Linux (clean, nice & easy):
+- git clone https://github.com/JustAnAlias/kickstarter
+- cd kickstarter
+- vagrant up
+- Wait approx. 30 minutes
+- vagrant ssh
+- workon kickstarter
+- cd /code
+- python3 run.py
 
 The run script will automaticly go through the process of Scraping kickstarter for the 40 most funded projects at the moment
 It will then proceed to download any video that might be in the description of the projects.
 
 When its done downloading videos, it will run our facedetection a video and take screenshots of the frames where faces is detected.
 Next it will run watson's classifiers on the frames to see what is on the pictures.
-
-## 

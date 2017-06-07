@@ -27,5 +27,5 @@ def allVideos(root_dir):
                                 #classifications.append(classifyFromPath(path2frame))
                                 json.dump(classifyFromPath(os.path.join(directory, file)), fp, indent=4)
         
-allVideos("videos")
+
 #print(classifications)

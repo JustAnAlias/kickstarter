@@ -1,6 +1,9 @@
 import kickstarter
 import failedd
 from ks_video_downloader import VideoDownloader
+import facedetect
+import facedetect_2_proto
+import classifier
 
 print("Executing Kickstarter.py")
 kickstarter.run()
@@ -11,6 +14,8 @@ downloader = VideoDownloader()
 downloader.run()
 print("Finished")
 print("Starting face detection with facedetect_2_proto.py")
-#facedetect_2_proto.run()
+facedetect_2_proto.run()
 print("Finished face detection")
-print("Starting Classification.py")
+print("Starting Classifier.py")
+classifier.allVideos('videos')
+print("classifiers saved)
