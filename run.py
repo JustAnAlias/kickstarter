@@ -3,7 +3,7 @@ import failedd
 from ks_video_downloader import VideoDownloader
 import facedetect
 import facedetect_2_proto
-import classifier
+# import classifier
 
 print("Executing Kickstarter.py")
 kickstarter.run()
@@ -18,4 +18,4 @@ facedetect_2_proto.run()
 print("Finished face detection")
 print("Starting Classifier.py")
 classifier.allVideos('videos')
-print("classifiers saved)
+print('classifiers saved')

@@ -1,12 +1,5 @@
 #!/usr/bin/env python
 
-'''
-face detection using haar cascades
-
-USAGE:
-    facedetect.py [--cascade <cascade_fn>] [--nested-cascade <cascade_fn>] [<video_source>]
-'''
-
 # Python 2/3 compatibility
 from __future__ import print_function
 
@@ -45,7 +38,7 @@ def have_face(face_id):
     print("highest differences : ", high_diff_list)
         # for idx in range(1, len(face_list)):
 
-def run(folder, file_name):
+def process_video(folder, file_name=None):
     video_src = os.path.join(os.curdir, folder, file_name)
     images_folder = os.path.join(folder, 'frames')
     if not os.path.isdir(images_folder):
@@ -60,17 +53,13 @@ def run(folder, file_name):
     detector = dlib.get_frontal_face_detector()
     sp = dlib.shape_predictor(predictor_path)
     facerec = dlib.face_recognition_model_v1(face_rec_model_path)
-
-
-
-    # cam = create_capture(video_src, fallback='synth:bg=../data/lena.jpg:noise=0.05')
     cam = cv2.VideoCapture(video_src)
     image_count = 0
     frame_count = 0
     while True:
         frame_count += 1
         if frame_count % 1000 == 1:
-            print('frames processed: ', frame_count-1)
+            print('frames processed: ', frame_count-1) # yes, it's off by one, but looks better with whole thousands
         ret, img = cam.read()
         if not ret:
             break
@@ -91,32 +80,23 @@ def run(folder, file_name):
                     # k, d.left(), d.top(), d.right(), d.bottom()))
                 # Get the landmarks/parts for the face in box d.
                 shape = sp(img, d)
-                # Draw the face landmarks on the screen so we can see what face is currently being processed.
-                # win.clear_overlay()
-                # win.add_overlay(d)
-                # win.add_overlay(shape)
 
                 # Compute the 128D vector that describes the face in img identified by
-                # shape.  In general, if two face descriptor vectors have a Euclidean
-                # distance between them less than 0.6 then they are from the same
-                # person, otherwise they are from different people.  He we just print
-                # the vector to the screen.
+                # shape.
                 face_id = facerec.compute_face_descriptor(img, shape)
                 if not have_face(face_id):
                     print("new face found at frame number {0}".format(frame_count))
                     face_list.append(facerec.compute_face_descriptor(img, shape))
                     save_file_to = os.path.join(images_folder, "{0}{1}.jpg".format(file_name[:-4], image_count))
-                    # print('saving file to: ', save_file_to)
+                    # save image as file
                     cv2.imwrite(save_file_to, img)
                     image_count += 1
-        # draw_str(vis, (20, 20), 'time: %.1f ms' % (dt*1000))
-        #cv2.imshow('facedetect', vis)
+
 
     print("{0} images made out of {1} frames".format(image_count, frame_count))
     cv2.destroyAllWindows()
 
-
-if __name__ == '__main__':
+def run():
     import sys, getopt, json
     print(__doc__)
     startdata = None
@@ -126,11 +106,15 @@ if __name__ == '__main__':
 
         fo = os.path.join("videos", k)
         fi = "{0}{1}".format(k, "-1-base.mp4")
-        run(fo, fi)
-        p = "videos/"+k
-        f = k+"-1-base.mp4"
-        print(p)
-        print(f)
-        run(p,f)
+        process_video(fo, fi)
+        # p = "videos/"+k
+        # f = k+"-1-base.mp4"
+        # print(p)
+        # print(f)
+        # run(p,f)
+
+if __name__ == '__main__':
+    run()
+
 
     # run("videos/bring-reading-rainbow-back-for-every-child-everywh", "bring-reading-rainbow-back-for-every-child-everywh-1-base.mp4")
